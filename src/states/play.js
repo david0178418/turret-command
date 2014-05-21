@@ -37,7 +37,7 @@ define(function(require) {
 			window.buildings = this.buildingController = new BuildingController(game);
 			this.hero = new Hero({x: CONFIG.stage.width/2, y: CONFIG.stage.height}, game);
 			this.turrets = this.hero.turrets;
-			this.hud = new Hud(game, this.hero);
+			this.hud = new Hud(game, this.hero, this.meteorController);
 			game.add.existing(this.hero);
 			game.stage.backgroundColor = '#333';
 			

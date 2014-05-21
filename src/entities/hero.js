@@ -21,6 +21,7 @@ define(function(require) {
 			action: game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR)
 		};
 		
+		this.score = 0;
 		this.anchor.setTo(0.5, 1);
 		this.poweredUp = false;
 		this.stunned = false;

@@ -27,11 +27,9 @@ define(function(require) {
 		game.physics.enable(this, Phaser.Physics.ARCADE);
 		this.body.immovable = true;
 		this.events.onKilled.add(function() {
-			console.log(2);
 			this.rangeOutline.visible = false;
 		}, this);
 		this.events.onRevived.add(function() {
-			console.log(1);
 			this.rangeOutline.visible = true;
 		}, this);
 		window.turret = this;
