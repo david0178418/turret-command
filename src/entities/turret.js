@@ -40,7 +40,7 @@ define(function(require) {
 	Turret.RANGE = 350;
 	
 	Turret.preload = function(game) {
-		game.load.image('turret', 'assets/images/turret.png');
+		game.load.image('turret', '');
 	};
 	
 	Turret.prototype = Object.create(Phaser.Sprite.prototype);
@@ -73,6 +73,10 @@ define(function(require) {
 			
 			if(closestMeteor) {
 				this.fireAt(closestMeteor);
+				
+				if(closestMeteor.isDead()) {
+					
+				}
 			}
 		},
 		fireAt: function(meteor) {

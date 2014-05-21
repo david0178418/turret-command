@@ -3,6 +3,7 @@ define(function(require) {
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
 		damageComponent = require('components/damage'),
+		resourceFragmentController = require('entities/resource-fragment-controller-instance'),
 		RADIANS_COEF = Math.PI / 180;
 	
 	function Meteor(props, game) {
@@ -33,7 +34,16 @@ define(function(require) {
 	_.extend(Meteor.prototype, damageComponent, {
 		constructor: Meteor,
 		update: function() {
-			if(this.isDead() || !this.y > this.game.world.height) {
+			if(!this.alive) {
+				return;
+			}
+			
+			if(this.isDead()) {
+				this.kill();
+				resourceFragmentController.spawnResourceFragments(this.x, this.y, 5);
+				return;
+			}
+			if(!this.y > this.game.world.height) {
 				this.kill();
 			}
 		},
