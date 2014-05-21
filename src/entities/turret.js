@@ -27,11 +27,9 @@ define(function(require) {
 		game.physics.enable(this, Phaser.Physics.ARCADE);
 		this.body.immovable = true;
 		this.events.onKilled.add(function() {
-			console.log(2);
 			this.rangeOutline.visible = false;
 		}, this);
 		this.events.onRevived.add(function() {
-			console.log(1);
 			this.rangeOutline.visible = true;
 		}, this);
 		window.turret = this;
@@ -42,7 +40,7 @@ define(function(require) {
 	Turret.RANGE = 350;
 	
 	Turret.preload = function(game) {
-		game.load.image('turret', 'assets/images/turret.png');
+		game.load.image('turret', '');
 	};
 	
 	Turret.prototype = Object.create(Phaser.Sprite.prototype);
@@ -75,6 +73,10 @@ define(function(require) {
 			
 			if(closestMeteor) {
 				this.fireAt(closestMeteor);
+				
+				if(closestMeteor.isDead()) {
+					
+				}
 			}
 		},
 		fireAt: function(meteor) {

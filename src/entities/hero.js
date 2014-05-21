@@ -21,6 +21,7 @@ define(function(require) {
 			action: game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR)
 		};
 		
+		this.score = 0;
 		this.anchor.setTo(0.5, 1);
 		this.poweredUp = false;
 		this.stunned = false;
@@ -59,6 +60,7 @@ define(function(require) {
 	Hero.STARTING_POWER_DRAIN_RATE = 400;
 
 	Hero.preload = function(game) {
+		game.load.image('hero', '');
 		Turret.preload(game);
 	};
 	
@@ -125,6 +127,9 @@ define(function(require) {
 		stop: function() {
 			this.acceleration.x = this.acceleration.y = 0;
 			this.velocity.x = this.velocity.y = 0;
+		},
+		addPower: function(power) {
+			this.power += power;
 		}
 	});
 	

@@ -3,16 +3,22 @@ define(function(require) {
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
 		Meteor = require('entities/meteor');
-
+	
 	function MeteorController(game) {
 		this.game = game;
 		this.meteors = game.add.group();
-		this.baseInterval = 300;
-		this.intervalRange = 1000;
+		this.baseInterval = 500;
+		this.intervalRange = 2000;
 		this.nextSpawn = 2000;
-		this.meteorSpeed = 150;
-		window.y = this.meteors;
+		this.level = 0;
+		this.killCount = 0;
+		this.speedInterval = 50;
+		window.meteors = this.meteors; //debug
 	}
+	
+	MeteorController.DIRECTION_ARC = 60;	//Arc off straight down in either direction that the meteor can begin motion
+	MeteorController.BASE_SPEED = 100;
+	MeteorController.SPAWN_HEIGHT = -50;
 
 	MeteorController.prototype = {
 		update: function() {
@@ -24,13 +30,19 @@ define(function(require) {
 				this.nextSpawn = this.baseInterval + _.random(this.intervalRange);
 			}
 		},
+		
+		incrementKills: function() {
+			this.killCount++;
+		},
 
 		spawnMeteor: function() {
 			var meteor = this.meteors.getFirstDead(),
 				properties = {
 					x: _.random(100, this.game.world.width - 100),
-					angle: 0,
-					speed: this.meteorSpeed
+					y: MeteorController.SPAWN_HEIGHT,
+					angle: _.random(-MeteorController.DIRECTION_ARC + 90, MeteorController.DIRECTION_ARC + 90),
+					speed: MeteorController.BASE_SPEED + _.random(0, this.level*this.speedInterval),
+					onKill: _.bind(this.incrementKills, this)
 				};
 			
 			if(!meteor) {

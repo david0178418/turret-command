@@ -21,6 +21,7 @@ define(function(require) {
 	
 	Building.HIT_POINTS = 4;
 	Building.preload = function(game) {
+		game.load.image('building', '');
 	};
 	
 	Building.prototype = Object.create(Phaser.Sprite.prototype);

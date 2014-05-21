@@ -7,6 +7,7 @@ define(function(require) {
 		Hero = require('entities/hero'),
 		BuildingController = require('entities/building-controller'),
 		Hud = require('entities/hud'),
+		resourceFragmentController = require('entities/resource-fragment-controller-instance'),
 		game = require('game');
 	
 	States.Play = 'play';
@@ -37,7 +38,7 @@ define(function(require) {
 			window.buildings = this.buildingController = new BuildingController(game);
 			this.hero = new Hero({x: CONFIG.stage.width/2, y: CONFIG.stage.height}, game);
 			this.turrets = this.hero.turrets;
-			this.hud = new Hud(game, this.hero);
+			this.hud = new Hud(game, this.hero, this.meteorController);
 			game.add.existing(this.hero);
 			game.stage.backgroundColor = '#333';
 			
@@ -54,6 +55,7 @@ define(function(require) {
 			game.physics.arcade.collide(this.hero, this.meteorController.meteors, this.collideHeroMeteor, null, this);
 			game.physics.arcade.collide(this.turrets, this.meteorController.meteors, this.collideTurretMeteor, null, this);
 			game.physics.arcade.collide(meteors, this.buildingController.cities, this.collideMeteorBuilding, null, this);
+			game.physics.arcade.collide(this.hero, resourceFragmentController.resourceFragments, this.collideHeroResource, null, this);
 
 			//this.hero.update(game);	??Why is this updating
 			this.meteorController.update(game);
@@ -78,6 +80,10 @@ define(function(require) {
 		collideMeteorBuilding: function(meteor, building) {
 			meteor.kill();
 			building.damage(1);
+		},
+		collideHeroResource: function(hero, resource) {
+			hero.addPower(resource.value);
+			resource.kill();
 		}
 	});
 });
