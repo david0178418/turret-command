@@ -1,7 +1,7 @@
 define(function(require) {
 	"use strict";
 	var States = require('states'),
-		game = require('game');
+		game = require('singletons/game');
 	
 	require('states/play');
 

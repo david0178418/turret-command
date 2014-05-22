@@ -3,20 +3,20 @@ define(function(require) {
 	var CONFIG = require('config'),
 		Phaser = require('phaser'),
 		States = require('states'),
-		MeteorController = require('entities/meteor-controller'),
+		Meteors = require('controllers/meteors'),
 		Hero = require('entities/hero'),
-		BuildingController = require('entities/building-controller'),
+		Buildings = require('controllers/buildings'),
 		Hud = require('entities/hud'),
-		resourceFragmentController = require('entities/resource-fragment-controller-instance'),
-		game = require('game');
+		resourceFragments = require('singletons/resource-fragments'),
+		game = require('singletons/game');
 	
 	States.Play = 'play';
 	game.state.add(States.Play, {
 		hero: null,
 		preload: function(game) {
 			Hero.preload(game);
-			BuildingController.preload(game);
-			MeteorController.preload(game);
+			Buildings.preload(game);
+			Meteors.preload(game);
 			Hud.preload(game);
 		},
 		create: function(game) {
@@ -34,8 +34,8 @@ define(function(require) {
 
 			game.world.setBounds(0, 0, CONFIG.stage.width, CONFIG.stage.height);
 			
-			this.meteorController = new MeteorController(game);
-			window.buildings = this.buildingController = new BuildingController(game);
+			this.meteorController = new Meteors(game);
+			window.buildings = this.buildingController = new Buildings(game);
 			this.hero = new Hero({x: CONFIG.stage.width/2, y: CONFIG.stage.height}, game);
 			this.turrets = this.hero.turrets;
 			this.hud = new Hud(game, this.hero, this.meteorController);
@@ -55,7 +55,7 @@ define(function(require) {
 			game.physics.arcade.collide(this.hero, this.meteorController.meteors, this.collideHeroMeteor, null, this);
 			game.physics.arcade.collide(this.turrets, this.meteorController.meteors, this.collideTurretMeteor, null, this);
 			game.physics.arcade.collide(meteors, this.buildingController.cities, this.collideMeteorBuilding, null, this);
-			game.physics.arcade.collide(this.hero, resourceFragmentController.resourceFragments, this.collideHeroResource, null, this);
+			game.physics.arcade.collide(this.hero, resourceFragments.resourceFragments, this.collideHeroResource, null, this);
 
 			//this.hero.update(game);	??Why is this updating
 			this.meteorController.update(game);
