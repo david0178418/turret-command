@@ -3,9 +3,11 @@ define(function(require) {
 
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
-		damageComponent = require('components/damage');
+		damageComponent = require('components/damage'),
+		injector = require('injector');
 	
-	function Building(props, game) {
+	function Building(props) {
+		var game = injector.get('game');
 		Phaser.Sprite.call(this, game, props.x, props.y, 'city');
 		// XXX TEMP SIZE FOR PLACEHOLDER
 		this.width = 50;

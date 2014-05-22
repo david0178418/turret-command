@@ -2,28 +2,30 @@ define(function(require) {
 	"use strict";
 	//TODO Need better place to organize since not really an entity.  Maybe "interface" folder?
 	var _ = require('lodash'),
-		Phaser = require('phaser');
+		Phaser = require('phaser'),
+		injector = require('injector');
 
-	function Hud(game, hero, meteorController) {
-		this.game = game;
-		this.hero = hero;
-		this.meteorController = meteorController;
-		this.currentScore = meteorController.killCount;
-		this.currentHealth = hero.health;
-		this.currentPower = hero.power;
+	function Hud() {
+		this.game = injector.get('game');
+		this.hero  = injector.get('hero');
+		this.meteorController = injector.get('meteors');
 		
-		this.scoreMsg = game.add.text(20, 20, 'Score: '+meteorController.killCount, {
+		this.currentScore = this.meteorController.killCount;
+		this.currentHealth = this.hero.health;
+		this.currentPower = this.hero.power;
+		
+		this.scoreMsg = this.game.add.text(20, 20, 'Score: '+this.meteorController.killCount, {
 			font: '30px Arial',
 			fill: '#ff0044',
 			align: 'left'
 		});
 		
-		this.healthMsg = game.add.text(20, 60, 'Health: '+hero.health, {
+		this.healthMsg = this.game.add.text(20, 60, 'Health: '+this.hero.health, {
 			font: '30px Arial',
 			fill: '#ff0044',
 			align: 'left'
 		});
-		this.powerMsg = game.add.text(20, 100, 'Power: '+hero.power, {
+		this.powerMsg = this.game.add.text(20, 100, 'Power: '+this.hero.power, {
 			font: '30px Arial',
 			fill: '#ff0044',
 			align: 'left'
@@ -38,21 +40,19 @@ define(function(require) {
 
 	Hud.prototype = {
 		update: function() {
-			var hero = this.hero;
-			
 			if(this.currentScore !== this.meteorController.killCount) {
 				this.scoreMsg.text = 'Score: '+this.meteorController.killCount;
 				this.currentScore = this.meteorController.killCount;
 			}
 			
-			if(this.currentHealth !== hero.health) {
-				this.healthMsg.text = 'Health: '+hero.health;
-				this.currentHealth = hero.health;
+			if(this.currentHealth !== this.hero.health) {
+				this.healthMsg.text = 'Health: '+this.hero.health;
+				this.currentHealth = this.hero.health;
 			}
 			
-			if(this.currentPower !== hero.power) {
-				this.powerMsg.text = 'Power: '+hero.power;
-				this.currentPower = hero.power;
+			if(this.currentPower !== this.hero.power) {
+				this.powerMsg.text = 'Power: '+this.hero.power;
+				this.currentPower = this.hero.power;
 			}
 		}
 	};

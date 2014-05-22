@@ -3,9 +3,11 @@ define(function(require) {
 
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
-		damageComponent = require('components/damage');
+		damageComponent = require('components/damage'),
+		injector = require('injector');
 	
-	function Turret(props, game) {
+	function Turret(props) {
+		var game = injector.get('game');
 		Phaser.Sprite.call(this, game, props.x, props.y, 'turret');
 		
 		// XXX TEMP SIZE FOR PLACEHOLDER
@@ -21,7 +23,7 @@ define(function(require) {
 		this.range = Turret.RANGE;
 		this.rangeOutline = game.add.graphics(props.x, props.y);
 		//this.rangeOutline.visible = false;
-		this.rangeOutline.lineStyle(1, 0xff0000, .5);
+		this.rangeOutline.lineStyle(1, 0xff0000, 0.5);
 		this.rangeOutline.drawCircle(0, 0, this.range);
 		
 		game.physics.enable(this, Phaser.Physics.ARCADE);

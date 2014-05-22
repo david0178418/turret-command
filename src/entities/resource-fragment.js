@@ -3,9 +3,11 @@ define(function(require) {
 
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
-		RADIANS_COEF = Math.PI / 180;
+		RADIANS_COEF = Math.PI / 180,
+		injector = require('injector');
 	
-	function ResourceFragment(props, game) {
+	function ResourceFragment(props) {
+		var game = injector.get('game');
 		Phaser.Sprite.call(this, game, props.x, props.y, 'reseource-fragment');
 		// XXX TEMP SIZE FOR PLACEHOLDER
 		this.width = 10;

@@ -3,10 +3,12 @@ define(function(require) {
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
 		Turret = require('entities/turret'),
-		damageComponent = require('components/damage');
+		damageComponent = require('components/damage'),
+		injector = require('injector');
 	
-	function Hero(props,game) {
-		Phaser.Sprite.call(this, game, props.x, props.y, 'hero-ground');
+	function Hero(props) {
+		var game = injector.get('game');
+		Phaser.Sprite.call(this, game, props.x, props.y, 'hero');
 		
 		// XXX TEMP SIZE FOR PLACEHOLDER
 		this.width = 16;
@@ -44,7 +46,6 @@ define(function(require) {
 		
 		game.add.existing(this);
 		
-		this.turrets = game.add.group();
 		window.hero = this;	//debug
 	}
 	
@@ -109,15 +110,7 @@ define(function(require) {
 			
 			this.power -= Turret.COST;
 			
-			var turret = this.turrets.getFirstDead();
-			
-			if(!turret) {
-				turret = new Turret({x: this.x, y:this.y}, this.game);
-				this.turrets.add(turret);
-			} else {
-				turret.reset(this.x, this.y);
-				turret.revive();
-			}
+			injector.get('turrets').spawnTurret(this.x, this.y);
 		},
 		stun: function() {
 			this.stunned = true;
