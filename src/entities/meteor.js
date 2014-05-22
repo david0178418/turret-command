@@ -3,7 +3,7 @@ define(function(require) {
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
 		damageComponent = require('components/damage'),
-		resourceFragmentController = require('entities/resource-fragment-controller-instance'),
+		resourceFragments = require('singletons/resource-fragments'),
 		RADIANS_COEF = Math.PI / 180;
 	
 	function Meteor(props, game) {
@@ -24,7 +24,7 @@ define(function(require) {
 		this.startFall(props);
 	}
 	
-	Meteor.TOUGHNESS = 2;
+	Meteor.TOUGHNESS = 4;
 	
 	Meteor.preload = function(game) {
 		game.load.image('meteor', '');
@@ -40,7 +40,7 @@ define(function(require) {
 			
 			if(this.isDead()) {
 				this.kill();
-				resourceFragmentController.spawnResourceFragments(this.x, this.y, 5);
+				resourceFragments.spawnResourceFragments(this.x, this.y, 5);
 				return;
 			}
 			if(!this.y > this.game.world.height) {

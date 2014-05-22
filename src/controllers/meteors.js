@@ -4,7 +4,7 @@ define(function(require) {
 		Phaser = require('phaser'),
 		Meteor = require('entities/meteor');
 	
-	function MeteorController(game) {
+	function Meteors(game) {
 		this.game = game;
 		this.meteors = game.add.group();
 		this.baseInterval = 500;
@@ -16,11 +16,11 @@ define(function(require) {
 		window.meteors = this.meteors; //debug
 	}
 	
-	MeteorController.DIRECTION_ARC = 60;	//Arc off straight down in either direction that the meteor can begin motion
-	MeteorController.BASE_SPEED = 100;
-	MeteorController.SPAWN_HEIGHT = -50;
+	Meteors.DIRECTION_ARC = 60;	//Arc off straight down in either direction that the meteor can begin motion
+	Meteors.BASE_SPEED = 100;
+	Meteors.SPAWN_HEIGHT = -50;
 
-	MeteorController.prototype = {
+	Meteors.prototype = {
 		update: function() {
 			this.nextSpawn -= this.game.time.elapsed;
 
@@ -39,9 +39,9 @@ define(function(require) {
 			var meteor = this.meteors.getFirstDead(),
 				properties = {
 					x: _.random(100, this.game.world.width - 100),
-					y: MeteorController.SPAWN_HEIGHT,
-					angle: _.random(-MeteorController.DIRECTION_ARC + 90, MeteorController.DIRECTION_ARC + 90),
-					speed: MeteorController.BASE_SPEED + _.random(0, this.level*this.speedInterval),
+					y: Meteors.SPAWN_HEIGHT,
+					angle: _.random(-Meteors.DIRECTION_ARC + 90, Meteors.DIRECTION_ARC + 90),
+					speed: Meteors.BASE_SPEED + _.random(0, this.level*this.speedInterval),
 					onKill: _.bind(this.incrementKills, this)
 				};
 			
@@ -55,10 +55,10 @@ define(function(require) {
 		},
 	};
 	
-	MeteorController.preload = function(game) {
+	Meteors.preload = function(game) {
 		game.load.spritesheet('meteor', 'assets/images/meteor.png', 50, 50);
 		Meteor.preload(game);
 	};
 
-	return MeteorController;
+	return Meteors;
 });

@@ -4,7 +4,7 @@ define(function(require) {
 		Phaser = require('phaser'),
 		Building = require('entities/building');
 
-	function BuildingController(game) {
+	function Buildings(game) {
 		this.game = game;
 		this.cities = game.add.group();
 		this.cities.add(new Building({
@@ -23,14 +23,14 @@ define(function(require) {
 		}, game));
 	}
 
-	BuildingController.prototype = {
+	Buildings.prototype = {
 		update: function(game) {
 		},
 	};
 	
-	BuildingController.preload = function(game) {
+	Buildings.preload = function(game) {
 		Building.preload(game);
 	};
 
-	return BuildingController;
+	return Buildings;
 });

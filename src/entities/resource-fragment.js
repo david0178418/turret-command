@@ -20,7 +20,6 @@ define(function(require) {
 		this.body.gravity.y = 400;
 		this.spawn(props);
 		game.add.existing(this);
-		this.bringToTop();
 	}
 	
 	ResourceFragment.LIFETIME = 4000;
@@ -39,6 +38,7 @@ define(function(require) {
 		},
 		spawn: function(props) {
 			this.reset(props.x, props.y);
+			this.bringToTop();
 			this.value = props.value;
 			this.spawnTime = this.game.time.now;
 			this.body.velocity.x = props.speed * Math.cos(props.angle * RADIANS_COEF);

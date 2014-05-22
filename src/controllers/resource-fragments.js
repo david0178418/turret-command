@@ -4,7 +4,7 @@ define(function(require) {
 		Phaser = require('phaser'),
 		ResourceFragment = require('entities/resource-fragment');
 	
-	function ResourceFragmentController(game) {
+	function ResourceFragments(game) {
 		this.game = game;
 		this.resourceFragments = game.add.group();
 		this.baseInterval = 500;
@@ -16,22 +16,22 @@ define(function(require) {
 		window.resourceFragments = this.resourceFragments; //debug
 	}
 	
-	ResourceFragmentController.DIRECTION_ARC = 45;
-	ResourceFragmentController.SPAWN_SPEED = 150;
+	ResourceFragments.DIRECTION_ARC = 45;
+	ResourceFragments.SPAWN_SPEED = 150;
 	
-	ResourceFragmentController.prototype = {
+	ResourceFragments.prototype = {
 		spawnResourceFragments: function(x, y, value) {
 			var resource,
 				resourceCount = 1 + _.random(value),
 				properties = {
 					x: x,
 					y: y,
-					speed: ResourceFragmentController.SPAWN_SPEED,
+					speed: ResourceFragments.SPAWN_SPEED,
 					value: 10
 				};
 			
 			for(var x = 0; x <= resourceCount; x++) {
-				properties.angle = _.random(-ResourceFragmentController.DIRECTION_ARC - 90, ResourceFragmentController.DIRECTION_ARC - 90);
+				properties.angle = _.random(-ResourceFragments.DIRECTION_ARC - 90, ResourceFragments.DIRECTION_ARC - 90);
 				resource = this.resourceFragments.getFirstDead();
 					
 				if(!resource) {
@@ -45,9 +45,9 @@ define(function(require) {
 		},
 	};
 	
-	ResourceFragmentController.preload = function(game) {
+	ResourceFragments.preload = function(game) {
 		ResourceFragment.preload(game);
 	};
 
-	return ResourceFragmentController;
+	return ResourceFragments;
 });
