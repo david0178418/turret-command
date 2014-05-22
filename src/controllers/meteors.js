@@ -2,11 +2,12 @@ define(function(require) {
 	"use strict";
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
-		Meteor = require('entities/meteor');
+		Meteor = require('entities/meteor'),
+		injector = require('injector');
 	
-	function Meteors(game) {
-		this.game = game;
-		this.meteors = game.add.group();
+	function Meteors() {
+		this.game = injector.get('game');
+		this.meteors = this.game.add.group();
 		this.baseInterval = 500;
 		this.intervalRange = 2000;
 		this.nextSpawn = 2000;

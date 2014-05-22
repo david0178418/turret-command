@@ -7,12 +7,12 @@ define(function(require) {
 		Hero = require('entities/hero'),
 		Buildings = require('controllers/buildings'),
 		Hud = require('entities/hud'),
-		resourceFragments = require('singletons/resource-fragments'),
-		game = require('singletons/game');
+		injector = require('injector'),
+		resourceFragments,
+		game = injector.get('game');
 	
 	States.Play = 'play';
 	game.state.add(States.Play, {
-		hero: null,
 		preload: function(game) {
 			Hero.preload(game);
 			Buildings.preload(game);
@@ -20,6 +20,7 @@ define(function(require) {
 			Hud.preload(game);
 		},
 		create: function(game) {
+			resourceFragments = injector.get('resourceFragments');
 			game.physics.startSystem(Phaser.Physics.ARCADE);
 			game.scale.fullScreenScaleMode = Phaser.ScaleManager.SHOW_ALL;
 			game.scale.setShowAll();
@@ -34,12 +35,12 @@ define(function(require) {
 
 			game.world.setBounds(0, 0, CONFIG.stage.width, CONFIG.stage.height);
 			
-			this.meteorController = new Meteors(game);
-			window.buildings = this.buildingController = new Buildings(game);
-			this.hero = new Hero({x: CONFIG.stage.width/2, y: CONFIG.stage.height}, game);
-			this.turrets = this.hero.turrets;
-			this.hud = new Hud(game, this.hero, this.meteorController);
-			game.add.existing(this.hero);
+			this.meteorController = injector.get('meteors');
+			this.buildingController = new Buildings(game);
+			
+			this.hero = injector.get('hero');
+			this.turretController = injector.get('turrets');
+			this.hud = injector.get('hud');
 			game.stage.backgroundColor = '#333';
 			
 			game.camera.follow(this.hero);
@@ -47,7 +48,7 @@ define(function(require) {
 		update: function(game) {
 			var meteors = this.meteorController.meteors;
 			// TODO Unevil-ify this n^2 check
-			this.turrets.forEachAlive(function(turret) {
+			this.turretController.turrets.forEachAlive(function(turret) {
 				turret.update();
 				turret.affect(meteors);
 			}, this);

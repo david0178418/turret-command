@@ -2,11 +2,12 @@ define(function(require) {
 	"use strict";
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
-		ResourceFragment = require('entities/resource-fragment');
+		ResourceFragment = require('entities/resource-fragment'),
+		injector = require('injector');
 	
-	function ResourceFragments(game) {
-		this.game = game;
-		this.resourceFragments = game.add.group();
+	function ResourceFragments() {
+		this.game = injector.get('game');
+		this.resourceFragments = this.game.add.group();
 		this.baseInterval = 500;
 		this.intervalRange = 2000;
 		this.nextSpawn = 2000;
@@ -35,7 +36,7 @@ define(function(require) {
 				resource = this.resourceFragments.getFirstDead();
 					
 				if(!resource) {
-					resource = new ResourceFragment(properties, this.game);
+					resource = new ResourceFragment(properties);
 
 					this.resourceFragments.add(resource);
 				} else {

@@ -1,7 +1,8 @@
 define(function(require) {
 	"use strict";
 	var States = require('states'),
-		game = require('singletons/game');
+		injector = require('injector'),
+		game = injector.get('game');
 	
 	require('states/play');
 

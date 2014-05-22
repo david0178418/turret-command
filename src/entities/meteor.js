@@ -2,11 +2,13 @@ define(function(require) {
 	"use strict";
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
+		injector = require('injector'),
 		damageComponent = require('components/damage'),
-		resourceFragments = require('singletons/resource-fragments'),
 		RADIANS_COEF = Math.PI / 180;
 	
-	function Meteor(props, game) {
+	function Meteor(props) {
+		var game = injector.get('game');
+		
 		Phaser.Sprite.call(this, game, props.x, props.y, 'meteor');
 		// XXX TEMP SIZE FOR PLACEHOLDER
 		this.width = 75;
@@ -21,6 +23,8 @@ define(function(require) {
 
 		this.body.allowRotation = false;
 		this.body.collideWorldBounds = false;
+		
+		this.resourceFragments = injector.get('resourceFragments');
 		this.startFall(props);
 	}
 	
@@ -40,7 +44,7 @@ define(function(require) {
 			
 			if(this.isDead()) {
 				this.kill();
-				resourceFragments.spawnResourceFragments(this.x, this.y, 5);
+				this.resourceFragments.spawnResourceFragments(this.x, this.y, 5);
 				return;
 			}
 			if(!this.y > this.game.world.height) {
