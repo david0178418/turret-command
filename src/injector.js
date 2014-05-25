@@ -60,15 +60,6 @@ define(function(require, exports) {
 			},
 		},
 		
-		juicy: {
-			cache: true,
-			init: function() {
-				var game = injector.get('game'),
-					Juicy = require('phaser-juicy');
-				return game.plugins.add(Juicy);
-			},
-		},
-		
 		meteorTrail: {
 			cache: false,
 			init: function() {
