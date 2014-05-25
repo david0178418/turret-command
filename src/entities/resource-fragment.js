@@ -34,6 +34,10 @@ define(function(require) {
 		constructor: ResourceFragment,
 		update: function() {
 			
+			if(this.y >= this.game.world.height) {
+				this.body.velocity.x = 0;
+			}
+			
 			if(this.spawnTime + ResourceFragment.LIFETIME < this.game.time.now) {
 				this.kill();
 			}

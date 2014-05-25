@@ -3,7 +3,9 @@ define(function(require) {
 
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
+		Beam = require('entities/beam'),
 		damageComponent = require('components/damage'),
+		Beam = require('entities/beam'),
 		injector = require('injector');
 	
 	function Turret(props) {
@@ -82,6 +84,9 @@ define(function(require) {
 			}
 		},
 		fireAt: function(meteor) {
+			var beam = Beam.create();
+			
+			beam.fire(this.x, this.y - this.height, meteor.x, meteor.y);
 			meteor.damage(1);
 			this.lastFire = this.game.time.now;
 		}

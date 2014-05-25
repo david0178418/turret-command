@@ -2,58 +2,100 @@ define(function(require, exports) {
 	"use strict";
 	
 	//TODO remove debug global
-	window.injector = exports;
+	var injector = window.injector = exports;
 		
-	var inits = {
-		game: function() {
-			var CONFIG = require('config'),
-				Phaser = require('phaser');
+	var resources = {
+		game: {
+			cache: true,
+			init: function() {
+				var CONFIG = require('config'),
+					Phaser = require('phaser');
 
-			//TODO remove debug global
-			return window.game = new Phaser.Game(CONFIG.screen.width, CONFIG.screen.height, Phaser.AUTO, 'phaser');
+				//TODO remove debug global
+				return window.game = new Phaser.Game(CONFIG.screen.width, CONFIG.screen.height, Phaser.AUTO, 'phaser');
+			},
 		},
 
-		hero: function() {
-			var CONFIG = require('config'),
-				Hero = require('entities/hero');
+		hero: {
+			cache: true,
+			init: function() {
+				var CONFIG = require('config'),
+					Hero = require('entities/hero');
 
-			//TODO remove debug global
-			return window.hero = new Hero({x: CONFIG.stage.width/2, y: CONFIG.stage.height});
-		},
-		
-		turrets: function() {
-			var Turrets = require('controllers/turrets');
-			return new Turrets();
-		},
-
-		meteors: function() {
-			var Meteors = require('controllers/meteors');
-			return new Meteors();
-		},
-
-		resourceFragments: function() {
-			var ResourceFragments = require('controllers/resource-fragments');
-
-			return new ResourceFragments();
+				//TODO remove debug global
+				return window.hero = new Hero({x: CONFIG.stage.width/2, y: CONFIG.stage.height});
+			}
 		},
 		
-		hud: function() {
-			var Hud = require('entities/hud');
-			return new Hud();
+		turrets: {
+			cache: true,
+			init: function() {
+				var Turrets = require('controllers/turrets');
+				return new Turrets();
+			},
 		},
+
+		meteors: {
+			cache: true,
+			init: function() {
+				var Meteors = require('controllers/meteors');
+				return new Meteors();
+			},
+		},
+
+		resourceFragments: {
+			cache: true,
+			init: function() {
+				var ResourceFragments = require('controllers/resource-fragments');
+
+				return new ResourceFragments();
+			},
+		},
+		
+		hud: {
+			cache: true,
+			init: function() {
+				var Hud = require('entities/hud');
+				return new Hud();
+			},
+		},
+		
+		juicy: {
+			cache: true,
+			init: function() {
+				var game = injector.get('game'),
+					Juicy = require('phaser-juicy');
+				return game.plugins.add(Juicy);
+			},
+		},
+		
+		meteorTrail: {
+			cache: false,
+			init: function() {
+				var game = injector.get('game');
+				
+				return null;
+			}
+		}
 	},
 		
 	instances = {};
 		
-	exports.get = function(dependency) {
-		if(!instances[dependency]) {
-			this.reset(dependency);
+	exports.get = function(resourceName) {
+		var resourceInstance = instances[resourceName];
+		
+		if(!resourceInstance) {
+			resourceInstance = resources[resourceName].init();
+			
+			if(resources[resourceName].cache) {
+				instances[resourceName] = resourceInstance;
+			}
 		}
 
-		return instances[dependency];
+		return resourceInstance;
 	};
 	
 	exports.reset = function(dependency) {
-		instances[dependency] = inits[dependency]();
+		instances[dependency] = resources[dependency]();
 	};
 });
