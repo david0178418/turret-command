@@ -54,8 +54,8 @@ define(function(require) {
 			this.ready = this.game.time.now - this.lastFire > this.coolDown;
 		},
 		affect: function(meteors) {
-			var closestMeteor,
-				closestDistance,
+			var lowestMeteor,
+				lowestAltitude,
 				game = this.game,
 				arcade = game.physics.arcade;
 			
@@ -64,21 +64,25 @@ define(function(require) {
 			}
 			
 			meteors.forEachAlive(function(meteor) {
-				var distance = arcade.distanceBetween(this, meteor);
+				var altitude,
+					distance = arcade.distanceBetween(this, meteor);
+				
 				if(distance >= this.range) {
 					return;
 				}
 				
-				if(!closestMeteor || distance < closestDistance) {
-					closestMeteor = meteor;
-					closestDistance = distance;
+				altitude = this.game.world.height - meteor.y;
+				
+				if(!lowestMeteor || altitude < lowestAltitude) {
+					lowestMeteor = meteor;
+					lowestAltitude = altitude;
 				}
 			}, this);
 			
-			if(closestMeteor) {
-				this.fireAt(closestMeteor);
+			if(lowestMeteor) {
+				this.fireAt(lowestMeteor);
 				
-				if(closestMeteor.isDead()) {
+				if(lowestMeteor.isDead()) {
 					
 				}
 			}
