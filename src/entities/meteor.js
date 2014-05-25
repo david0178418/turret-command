@@ -19,6 +19,8 @@ define(function(require) {
 		this.onKill = props.onKill;
 		this.revive(Meteor.TOUGHNESS);
 		this.anchor.setTo(0.5, 0.5);
+		game.add.existing(this);
+		
 		game.physics.enable(this, Phaser.Physics.ARCADE);
 
 		this.body.allowRotation = false;
@@ -47,7 +49,7 @@ define(function(require) {
 				this.resourceFragments.spawnResourceFragments(this.x, this.y, 5);
 				return;
 			}
-			if(!this.y > this.game.world.height) {
+			if(this.y > this.game.world.height - (this.height / 2)) {
 				this.kill();
 			}
 		},
