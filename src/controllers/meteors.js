@@ -57,7 +57,9 @@ define(function(require) {
 	};
 	
 	Meteors.preload = function(game) {
-		game.load.spritesheet('meteor', 'assets/images/meteor.png', 50, 50);
+		game.load.spritesheet('meteor', '/assets/images/meteor.png', 50, 50);
+		game.load.audio('hit1', '/assets/audio/hit1.ogg');
+		game.load.audio('explode1', '/assets/audio/explode1.ogg');
 		Meteor.preload(game);
 	};
 

@@ -66,22 +66,22 @@ define(function(require) {
 		},
 		paused: function() {
 		},
-		collideTurretMeteor: function(turret, meteorB) {
+		collideTurretMeteor: function(turret, meteor) {
 			turret.damage(1);
 			if(turret.isDead()) {
 				turret.kill();
 			}
-			meteorB.kill();
+			meteor.explode();
 		},
 		collideHeroMeteor: function(hero, meteor) {
 			var meteorTouching;
 			
 			hero.damage(1);
 			hero.stun();
-			meteor.kill();
+			meteor.explode();
 		},
 		collideMeteorBuilding: function(meteor, building) {
-			meteor.kill();
+			meteor.explode();
 			building.damage(1);
 		},
 		collideHeroResource: function(hero, resource) {
