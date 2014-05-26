@@ -6,6 +6,7 @@ define(function(require) {
 		Meteors = require('controllers/meteors'),
 		Hero = require('entities/hero'),
 		Buildings = require('controllers/buildings'),
+		Beam = require('entities/beam'),
 		Hud = require('entities/hud'),
 		injector = require('injector'),
 		resourceFragments,
@@ -18,6 +19,7 @@ define(function(require) {
 			Buildings.preload(game);
 			Meteors.preload(game);
 			Hud.preload(game);
+			Beam.preload(game);
 		},
 		create: function(game) {
 			resourceFragments = injector.get('resourceFragments');
