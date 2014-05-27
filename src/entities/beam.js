@@ -15,7 +15,9 @@ define(function(require) {
 		this.lineTo(-1, 0);
 		this.endFill();
 		this.scale.x = 0;
-		this.pivot.x = 0.5
+		this.pivot.x = 0.5;
+		
+		this.sound = game.add.sound('beam');
 	}
 	
 	Beam.TRANSITION_TIME = 100;
@@ -69,10 +71,16 @@ define(function(require) {
 			
 			stretch.start();
 			moveToTarget.start();
+			
+			this.sound.play();
 		},
 	});
 	
 	Beam.group = null;
+	
+	Beam.preload = function(game) {
+		game.load.audio('beam', '/assets/audio/laser1.ogg');
+	};
 	
 	Beam.create = function() {
 		var beam;

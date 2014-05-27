@@ -6,6 +6,7 @@ define(function(require) {
 		Meteors = require('controllers/meteors'),
 		Hero = require('entities/hero'),
 		Buildings = require('controllers/buildings'),
+		Beam = require('entities/beam'),
 		Hud = require('entities/hud'),
 		injector = require('injector'),
 		resourceFragments,
@@ -18,6 +19,7 @@ define(function(require) {
 			Buildings.preload(game);
 			Meteors.preload(game);
 			Hud.preload(game);
+			Beam.preload(game);
 		},
 		create: function(game) {
 			resourceFragments = injector.get('resourceFragments');
@@ -64,22 +66,22 @@ define(function(require) {
 		},
 		paused: function() {
 		},
-		collideTurretMeteor: function(turret, meteorB) {
+		collideTurretMeteor: function(turret, meteor) {
 			turret.damage(1);
 			if(turret.isDead()) {
 				turret.kill();
 			}
-			meteorB.kill();
+			meteor.explode();
 		},
 		collideHeroMeteor: function(hero, meteor) {
 			var meteorTouching;
 			
 			hero.damage(1);
 			hero.stun();
-			meteor.kill();
+			meteor.explode();
 		},
 		collideMeteorBuilding: function(meteor, building) {
-			meteor.kill();
+			meteor.explode();
 			building.damage(1);
 		},
 		collideHeroResource: function(hero, resource) {

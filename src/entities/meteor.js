@@ -28,6 +28,10 @@ define(function(require) {
 		
 		this.resourceFragments = injector.get('resourceFragments');
 		this.startFall(props);
+		
+		this.sounds = {
+			explode: game.add.sound('explode1'),
+		};
 	}
 	
 	Meteor.TOUGHNESS = 4;
@@ -45,13 +49,17 @@ define(function(require) {
 			}
 			
 			if(this.isDead()) {
-				this.kill();
+				this.explode();
 				this.resourceFragments.spawnResourceFragments(this.x, this.y, 5);
 				return;
 			}
 			if(this.y > this.game.world.height - (this.height / 2)) {
-				this.kill();
+				this.explode();
 			}
+		},
+		explode: function() {
+			this.kill();
+			this.sounds.explode.play();
 		},
 		startFall: function(props) {
 			this.events.onKilled.addOnce(this.onKill);
