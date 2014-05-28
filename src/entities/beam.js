@@ -2,10 +2,10 @@ define(function(require) {
 	"use strict";
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
-		injector = require('injector');
+		instanceManager = require('instance-manager');
 
 	function Beam() {
-		var game = injector.get('game');
+		var game = instanceManager.get('game');
 		Phaser.Graphics.call(this, game, 0, 0);
 		
 		this.beginFill(0xEE2222);
@@ -85,7 +85,7 @@ define(function(require) {
 	Beam.create = function() {
 		var beam;
 		
-		Beam.group = Beam.group || injector.get('game').add.group();
+		Beam.group = Beam.group || instanceManager.get('game').add.group();
 		
 		beam = Beam.group.getFirstDead();
 		

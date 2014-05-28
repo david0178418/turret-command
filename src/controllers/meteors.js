@@ -3,10 +3,10 @@ define(function(require) {
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
 		Meteor = require('entities/meteor'),
-		injector = require('injector');
+		instanceManager = require('instance-manager');
 	
 	function Meteors() {
-		this.game = injector.get('game');
+		this.game = instanceManager.get('game');
 		this.meteors = this.game.add.group();
 		this.baseInterval = 500;
 		this.intervalRange = 2000;
@@ -48,7 +48,7 @@ define(function(require) {
 			
 			if(!meteor) {
 				meteor = new Meteor(properties, this.game);
-
+				
 				this.meteors.add(meteor);
 			} else {
 				meteor.startFall(properties);

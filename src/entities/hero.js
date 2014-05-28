@@ -4,10 +4,10 @@ define(function(require) {
 		Phaser = require('phaser'),
 		Turret = require('entities/turret'),
 		damageComponent = require('components/damage'),
-		injector = require('injector');
+		instanceManager = require('instance-manager');
 	
 	function Hero(props) {
-		var game = injector.get('game');
+		var game = instanceManager.get('game');
 		Phaser.Sprite.call(this, game, props.x, props.y, 'hero');
 		
 		// XXX TEMP SIZE FOR PLACEHOLDER
@@ -56,7 +56,7 @@ define(function(require) {
 	Hero.THRUST = 3000;
 	Hero.MOVE_VELOCITY = 300;
 	Hero.STUN_TIME = 700;
-	Hero.STARTING_POWER = 1000;
+	Hero.STARTING_POWER = 500;
 	Hero.STARTING_POWER_REGEN_RATE = 0;
 	Hero.STARTING_POWER_DRAIN_RATE = 400;
 

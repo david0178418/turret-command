@@ -2,12 +2,12 @@ define(function(require) {
 	"use strict";
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
-		injector = require('injector'),
+		instanceManager = require('instance-manager'),
 		damageComponent = require('components/damage'),
 		RADIANS_COEF = Math.PI / 180;
 	
 	function Meteor(props) {
-		var game = injector.get('game');
+		var game = instanceManager.get('game');
 		
 		Phaser.Sprite.call(this, game, props.x, props.y, 'meteor');
 		// XXX TEMP SIZE FOR PLACEHOLDER
@@ -26,7 +26,7 @@ define(function(require) {
 		this.body.allowRotation = false;
 		this.body.collideWorldBounds = false;
 		
-		this.resourceFragments = injector.get('resourceFragments');
+		this.resourceFragments = instanceManager.get('resourceFragments');
 		this.startFall(props);
 		
 		this.sounds = {

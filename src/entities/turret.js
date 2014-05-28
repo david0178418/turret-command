@@ -6,10 +6,10 @@ define(function(require) {
 		Beam = require('entities/beam'),
 		damageComponent = require('components/damage'),
 		Beam = require('entities/beam'),
-		injector = require('injector');
+		instanceManager = require('instance-manager');
 	
 	function Turret(props) {
-		var game = injector.get('game');
+		var game = instanceManager.get('game');
 		Phaser.Sprite.call(this, game, props.x, props.y, 'turret');
 		
 		// XXX TEMP SIZE FOR PLACEHOLDER
@@ -19,6 +19,7 @@ define(function(require) {
 		
 		this.revive(Turret.HEALTH);
 		this.anchor.setTo(0.5, 1);
+		this.inputEnabled = true;
 		this.coolDown = 800;
 		this.ready = false;
 		this.lastFire = 0;
@@ -31,16 +32,12 @@ define(function(require) {
 		
 		game.physics.enable(this, Phaser.Physics.ARCADE);
 		this.body.immovable = true;
-		this.body.setSize = 
 		this.events.onKilled.add(function() {
 			this.rangeOutline.visible = false;
 		}, this);
 		this.events.onRevived.add(function() {
 			this.rangeOutline.visible = true;
 		}, this);
-		window.turret = this;
-		
-		this.inputEnabled = true;
 		this.events.onInputOver.add(this.highlight, this);
 		this.events.onInputOut.add(this.unhighlight, this);
 	}
@@ -112,7 +109,7 @@ define(function(require) {
 	Turret.create = function(x, y) {
 		var turret;
 		
-		Turret.turrets = Turret.turrets || injector.get('turrets');
+		Turret.turrets = Turret.turrets || instanceManager.get('turrets');
 		
 		turret = Turret.turrets.getFirstDead();
 		
