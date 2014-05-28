@@ -34,7 +34,7 @@ define(function(require) {
 		};
 	}
 	
-	Meteor.TOUGHNESS = 4;
+	Meteor.TOUGHNESS = 10;
 	
 	Meteor.preload = function(game) {
 		game.load.image('meteor', '');

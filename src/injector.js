@@ -30,8 +30,7 @@ define(function(require, exports) {
 		turrets: {
 			cache: true,
 			init: function() {
-				var Turrets = require('controllers/turrets');
-				return new Turrets();
+				return injector.get('game').add.group();
 			},
 		},
 

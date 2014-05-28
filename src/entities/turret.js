@@ -27,9 +27,11 @@ define(function(require) {
 		//this.rangeOutline.visible = false;
 		this.rangeOutline.lineStyle(1, 0xff0000, 0.5);
 		this.rangeOutline.drawCircle(0, 0, this.range);
+		this.rangeOutline.visible = false;
 		
 		game.physics.enable(this, Phaser.Physics.ARCADE);
 		this.body.immovable = true;
+		this.body.setSize = 
 		this.events.onKilled.add(function() {
 			this.rangeOutline.visible = false;
 		}, this);
@@ -37,11 +39,15 @@ define(function(require) {
 			this.rangeOutline.visible = true;
 		}, this);
 		window.turret = this;
+		
+		this.inputEnabled = true;
+		this.events.onInputOver.add(this.highlight, this);
+		this.events.onInputOut.add(this.unhighlight, this);
 	}
 	
 	Turret.HEALTH = 2;
 	Turret.COST = 150;
-	Turret.RANGE = 350;
+	Turret.RANGE = 700;
 	
 	Turret.preload = function(game) {
 		game.load.image('turret', '');
@@ -93,8 +99,31 @@ define(function(require) {
 			beam.fire(this.x, this.y - this.height, meteor.x, meteor.y);
 			meteor.damage(1);
 			this.lastFire = this.game.time.now;
+		},
+		
+		highlight: function() {
+			this.rangeOutline.visible = true;
+		},
+		unhighlight: function() {
+			this.rangeOutline.visible = false;
 		}
 	});
+	
+	Turret.create = function(x, y) {
+		var turret;
+		
+		Turret.turrets = Turret.turrets || injector.get('turrets');
+		
+		turret = Turret.turrets.getFirstDead();
+		
+		if(!turret) {
+			turret = new Turret({x: x, y:y});
+			Turret.turrets.add(turret);
+		} else {
+			turret.reset(x, y);
+			turret.revive();
+		}
+	};
 
 	return Turret;
 });

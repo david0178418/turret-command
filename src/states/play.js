@@ -41,7 +41,7 @@ define(function(require) {
 			this.buildingController = new Buildings(game);
 			
 			this.hero = injector.get('hero');
-			this.turretController = injector.get('turrets');
+			this.turrets = injector.get('turrets');
 			this.hud = injector.get('hud');
 			game.stage.backgroundColor = '#333';
 			
@@ -50,13 +50,13 @@ define(function(require) {
 		update: function(game) {
 			var meteors = this.meteorController.meteors;
 			// TODO Unevil-ify this n^2 check
-			this.turretController.turrets.forEachAlive(function(turret) {
+			this.turrets.forEachAlive(function(turret) {
 				turret.update();
 				turret.affect(meteors);
 			}, this);
 			
-			game.physics.arcade.collide(this.hero, this.meteorController.meteors, this.collideHeroMeteor, null, this);
-			game.physics.arcade.collide(this.turrets, this.meteorController.meteors, this.collideTurretMeteor, null, this);
+			game.physics.arcade.collide(this.hero, meteors, this.collideHeroMeteor, null, this);
+			game.physics.arcade.collide(this.turrets, meteors, this.collideTurretMeteor, null, this);
 			game.physics.arcade.collide(meteors, this.buildingController.cities, this.collideMeteorBuilding, null, this);
 			game.physics.arcade.collide(this.hero, resourceFragments.resourceFragments, this.collideHeroResource, null, this);
 

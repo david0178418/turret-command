@@ -110,7 +110,7 @@ define(function(require) {
 			
 			this.power -= Turret.COST;
 			
-			injector.get('turrets').spawnTurret(this.x, this.y);
+			Turret.create(this.x, this.y);
 		},
 		stun: function() {
 			this.stunned = true;
