@@ -54,6 +54,8 @@ define(function(require) {
 			building.reset(props.x, props.y);
 			building.revive();
 		}
+		
+		return building;
 	};
 
 	return Building;

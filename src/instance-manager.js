@@ -45,7 +45,7 @@ define(function(require, exports) {
 						instanceManager.get('turrets'),
 						instanceManager.get('buildings'),
 					],
-					forEachAlive: function(callback) {
+					forEachAlive: function(callback, context) {
 						for(var x = 0; x < this._lists.length; x++) {
 							this._lists[x].forEachAlive(callback, context);
 						}
@@ -61,7 +61,7 @@ define(function(require, exports) {
 				return {
 					_lists: [
 						instanceManager.get('meteors'),
-						
+						instanceManager.get('ships'),
 					],
 					forEachAlive: function(callback, context) {
 						//TODO less ghetto way of collecting all targetables

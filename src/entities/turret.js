@@ -56,8 +56,8 @@ define(function(require) {
 		update: function() {
 			this.ready = this.game.time.now - this.lastFire > this.coolDown;
 		},
-		affect: function(meteors) {
-			var lowestMeteor,
+		affect: function(targets) {
+			var lowestTarget,
 				lowestAltitude,
 				game = this.game,
 				arcade = game.physics.arcade;
@@ -66,35 +66,31 @@ define(function(require) {
 				return;
 			}
 			
-			meteors.forEachAlive(function(meteor) {
+			targets.forEachAlive(function(target) {
 				var altitude,
-					distance = arcade.distanceBetween(this, meteor);
+					distance = arcade.distanceBetween(this, target);
 				
 				if(distance >= this.range) {
 					return;
 				}
 				
-				altitude = this.game.world.height - meteor.y;
+				altitude = this.game.world.height - target.y;
 				
-				if(!lowestMeteor || altitude < lowestAltitude) {
-					lowestMeteor = meteor;
+				if(!lowestTarget || altitude < lowestAltitude) {
+					lowestTarget = target;
 					lowestAltitude = altitude;
 				}
 			}, this);
 			
-			if(lowestMeteor) {
-				this.fireAt(lowestMeteor);
-				
-				if(lowestMeteor.isDead()) {
-					
-				}
+			if(lowestTarget) {
+				this.fireAt(lowestTarget);
 			}
 		},
-		fireAt: function(meteor) {
+		fireAt: function(target) {
 			var beam = Beam.create();
 			
-			beam.fire(this.x, this.y - this.height, meteor.x, meteor.y);
-			meteor.damage(1);
+			beam.fire(this.x, this.y - this.height, target.x, target.y);
+			target.damage(1);
 			this.lastFire = this.game.time.now;
 		},
 		
@@ -120,6 +116,8 @@ define(function(require) {
 			turret.reset(x, y);
 			turret.revive();
 		}
+		
+		return turret;
 	};
 
 	return Turret;

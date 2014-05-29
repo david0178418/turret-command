@@ -7,6 +7,7 @@ define(function(require) {
 		Hero = require('entities/hero'),
 		Building = require('entities/building'),
 		Beam = require('entities/beam'),
+		Ship = require('entities/ship'),
 		Hud = require('entities/hud'),
 		instanceManager = require('instance-manager'),
 		resourceFragments,
