@@ -106,16 +106,16 @@ define(function(require) {
 		}
 	});
 	
+	//Unify this with all the others that use "create"
 	Turret.create = function(x, y) {
-		var turret;
+		var turret,
+			turrets = instanceManager.get('turrets');
 		
-		Turret.turrets = Turret.turrets || instanceManager.get('turrets');
-		
-		turret = Turret.turrets.getFirstDead();
+		turret = turrets.getFirstDead();
 		
 		if(!turret) {
 			turret = new Turret({x: x, y:y});
-			Turret.turrets.add(turret);
+			turrets.add(turret);
 		} else {
 			turret.reset(x, y);
 			turret.revive();

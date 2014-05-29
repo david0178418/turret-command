@@ -8,7 +8,7 @@ define(function(require) {
 	function Hud() {
 		this.game = instanceManager.get('game');
 		this.hero  = instanceManager.get('hero');
-		this.meteorController = instanceManager.get('meteors');
+		this.meteorController = instanceManager.get('meteorController');
 		
 		this.currentScore = this.meteorController.killCount;
 		this.currentHealth = this.hero.health;

@@ -42,15 +42,14 @@ define(function(require) {
 	});
 	
 	Building.create = function(props) {
-		var building;
+		var building,
+			buildings = instanceManager.get('buildings');
 		
-		Building.buildings = Building.buildings || instanceManager.get('buildings');
-		
-		building = Building.buildings.getFirstDead();
+		building = buildings.getFirstDead();
 		
 		if(!building) {
 			building = new Building(props);
-			Building.buildings.add(building);
+			buildings.add(building);
 		} else {
 			building.reset(props.x, props.y);
 			building.revive();

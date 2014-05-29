@@ -83,21 +83,18 @@ define(function(require) {
 	};
 	
 	Beam.create = function() {
-		var beam;
+		var beam,
+			beams = instanceManager.get('beams');
 		
-		Beam.group = Beam.group || instanceManager.get('game').add.group();
-		
-		beam = Beam.group.getFirstDead();
+		beam = beams.getFirstDead();
 		
 		if(!beam) {
 			beam = new Beam();
-			Beam.group.add(beam);
+			beams.add(beam);
 		}
 		
 		return beam;
 	};
-
-	//TOD Remove debug;
-	window.Beam = Beam;
+	
 	return Beam;
 });

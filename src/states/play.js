@@ -37,8 +37,6 @@ define(function(require) {
 
 			game.world.setBounds(0, 0, CONFIG.stage.width, CONFIG.stage.height);
 			
-			this.meteorController = instanceManager.get('meteors');
-			
 			Building.create({
 				x: 100,
 				y: game.world.height
@@ -54,25 +52,29 @@ define(function(require) {
 				y: game.world.height
 			});
 			
+			this.meteorController = instanceManager.get('meteorController');
+			this.meteors = instanceManager.get('meteors');
 			this.hero = instanceManager.get('hero');
 			this.turrets = instanceManager.get('turrets');
+			this.buildings = instanceManager.get('buildings')
 			this.hud = instanceManager.get('hud');
+			this.enemyTargets = instanceManager.get('enemyTargets');
 			game.stage.backgroundColor = '#333';
 			
 			game.camera.follow(this.hero);
 		},
 		update: function(game) {
-			var meteors = this.meteorController.meteors,
-				enemyTargets = instanceManager.get('enemyTargets');
+			var meteors = this.meteors;
 			// TODO Unevil-ify this n^2 check
 			this.turrets.forEachAlive(function(turret) {
 				turret.update();
-				turret.affect(enemyTargets);
+				turret.affect(this.enemyTargets);
 			}, this);
 			
+			//TODO Unify all this crazy
 			game.physics.arcade.collide(this.hero, meteors, this.collideHeroMeteor, null, this);
 			game.physics.arcade.collide(this.turrets, meteors, this.collideTurretMeteor, null, this);
-			game.physics.arcade.collide(meteors, Building.buildings, this.collideMeteorBuilding, null, this);
+			game.physics.arcade.collide(meteors, this.buildings, this.collideMeteorBuilding, null, this);
 			game.physics.arcade.collide(this.hero, resourceFragments.resourceFragments, this.collideHeroResource, null, this);
 			
 			this.meteorController.update(game);

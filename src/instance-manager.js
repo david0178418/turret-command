@@ -60,7 +60,8 @@ define(function(require, exports) {
 			init: function() {
 				return {
 					_lists: [
-						instanceManager.get('meteors').meteors,
+						instanceManager.get('meteors'),
+						
 					],
 					forEachAlive: function(callback, context) {
 						//TODO less ghetto way of collecting all targetables
@@ -84,8 +85,26 @@ define(function(require, exports) {
 				return instanceManager.get('group');
 			},
 		},
-
+			
 		meteors: {
+			init: function() {
+				return instanceManager.get('group');
+			},
+		},
+			
+		ships: {
+			init: function() {
+				return instanceManager.get('group');
+			},
+		},
+			
+		beams: {
+			init: function() {
+				return instanceManager.get('group');
+			},
+		},
+
+		meteorController: {
 			init: function() {
 				var Meteors = require('controllers/meteors');
 				return new Meteors();

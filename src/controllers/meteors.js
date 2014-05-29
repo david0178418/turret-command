@@ -7,14 +7,12 @@ define(function(require) {
 	
 	function Meteors() {
 		this.game = instanceManager.get('game');
-		this.meteors = this.game.add.group();
 		this.baseInterval = 500;
 		this.intervalRange = 2000;
 		this.nextSpawn = 2000;
 		this.level = 0;
 		this.killCount = 0;
 		this.speedInterval = 50;
-		window.meteors = this.meteors; //debug
 	}
 	
 	Meteors.DIRECTION_ARC = 60;	//Arc off straight down in either direction that the meteor can begin motion
@@ -37,7 +35,8 @@ define(function(require) {
 		},
 
 		spawnMeteor: function() {
-			var meteor = this.meteors.getFirstDead(),
+			var meteors = instanceManager.get('meteors'),
+				meteor = meteors.getFirstDead(),
 				properties = {
 					x: _.random(100, this.game.world.width - 100),
 					y: Meteors.SPAWN_HEIGHT,
@@ -48,8 +47,7 @@ define(function(require) {
 			
 			if(!meteor) {
 				meteor = new Meteor(properties, this.game);
-				
-				this.meteors.add(meteor);
+				meteors.add(meteor);
 			} else {
 				meteor.startFall(properties);
 			}
