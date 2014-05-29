@@ -16,7 +16,7 @@ define(function(require) {
 		// END
 		
 		this.scored = false;
-		this.onKill = props.onKill;
+		this.onKill = props.onKill || function() {};
 		this.revive(Meteor.TOUGHNESS);
 		this.anchor.setTo(0.5, 0.5);
 		game.add.existing(this);
@@ -34,10 +34,12 @@ define(function(require) {
 		};
 	}
 	
-	Meteor.TOUGHNESS = 10;
+	Meteor.TOUGHNESS = 7;
 	
 	Meteor.preload = function(game) {
-		game.load.image('meteor', '');
+		game.load.spritesheet('meteor', '/assets/images/meteor.png', 50, 50);
+		game.load.audio('hit1', '/assets/audio/hit1.ogg');
+		game.load.audio('explode1', '/assets/audio/explode1.ogg');
 	};
 	
 	Meteor.prototype = Object.create(Phaser.Sprite.prototype);

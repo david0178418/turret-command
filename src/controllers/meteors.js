@@ -7,7 +7,7 @@ define(function(require) {
 	
 	function Meteors() {
 		this.game = instanceManager.get('game');
-		this.baseInterval = 500;
+		this.baseInterval = 1500;
 		this.intervalRange = 2000;
 		this.nextSpawn = 2000;
 		this.level = 0;
@@ -24,7 +24,7 @@ define(function(require) {
 			this.nextSpawn -= this.game.time.elapsed;
 
 			if(this.nextSpawn < 0) {
-				this.spawnMeteor(this.game);
+				this.spawnMeteor();
 
 				this.nextSpawn = this.baseInterval + _.random(this.intervalRange);
 			}
@@ -41,12 +41,11 @@ define(function(require) {
 					x: _.random(100, this.game.world.width - 100),
 					y: Meteors.SPAWN_HEIGHT,
 					angle: _.random(-Meteors.DIRECTION_ARC + 90, Meteors.DIRECTION_ARC + 90),
-					speed: Meteors.BASE_SPEED + _.random(0, this.level*this.speedInterval),
-					onKill: _.bind(this.incrementKills, this)
+					speed: Meteors.BASE_SPEED + _.random(0, this.level*this.speedInterval)
 				};
 			
 			if(!meteor) {
-				meteor = new Meteor(properties, this.game);
+				meteor = new Meteor(properties);
 				meteors.add(meteor);
 			} else {
 				meteor.startFall(properties);
@@ -55,9 +54,6 @@ define(function(require) {
 	};
 	
 	Meteors.preload = function(game) {
-		game.load.spritesheet('meteor', '/assets/images/meteor.png', 50, 50);
-		game.load.audio('hit1', '/assets/audio/hit1.ogg');
-		game.load.audio('explode1', '/assets/audio/explode1.ogg');
 		Meteor.preload(game);
 	};
 

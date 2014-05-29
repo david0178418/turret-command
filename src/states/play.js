@@ -54,6 +54,7 @@ define(function(require) {
 			});
 			
 			this.meteorController = instanceManager.get('meteorController');
+			this.shipController = instanceManager.get('shipController');
 			this.meteors = instanceManager.get('meteors');
 			this.hero = instanceManager.get('hero');
 			this.turrets = instanceManager.get('turrets');
@@ -74,6 +75,7 @@ define(function(require) {
 			game.physics.arcade.collide(this.hero, resourceFragments.resourceFragments, this.collideHeroResource, null, this);
 			
 			this.meteorController.update(game);
+			this.shipController.update(game);
 			this.hud.update(game);
 		},
 		paused: function() {

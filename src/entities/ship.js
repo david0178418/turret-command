@@ -17,28 +17,26 @@ define(function(require) {
 		this.width = 100;
 		this.height = 40;
 		// END
-		
-		this.revive(Ship.HEALTH);
-		this.anchor.setTo(1, 0.5);
-		this.flightPath = game.add.tween(this);
-		this.flightPath.to({
-			x: props.direction === Ship.DIRECTIONS.WEST ? props.x - 3000: props.x +3000
-		}, 10000);
-		this.flightPath.start();
 		this.playerTargets = instanceManager.get('playerTargets');
 		this.initGun({
-			cooldown: Ship.cooldown,
+			cooldown: Ship.COOLDOWN,
 		});
 		this.initTargetClosest({
 			targetAction: this.fireAt,
 			range: Ship.RANGE,
 		});
 		
+		this.revive(Ship.HEALTH);
+		this.anchor.setTo(1, 0.5);
+		
 		game.physics.enable(this, Phaser.Physics.ARCADE);
+		
+		this.startFlightPath(props);
 		
 		game.add.existing(this);
 	}
 	
+	Ship.COOLDOWN = 1800;
 	Ship.HEALTH = 4;
 	Ship.RANGE = 700;
 	Ship.DIRECTIONS = {
@@ -57,6 +55,16 @@ define(function(require) {
 		laserGunComponent,
 		targetClosest, {
 			constructor: Ship,
+			startFlightPath: function(props) {
+				var flightPath = this.game.add.tween(this);
+				
+				flightPath.to({
+					x: props.direction === Ship.DIRECTIONS.WEST ? props.x - 3000: props.x +3000,
+				}, props.flightTime);
+				flightPath.start();
+				
+				this.anchor.x = props.direction === Ship.DIRECTIONS.WEST ? 0: 1;
+			},
 			update: function() {
 				if(this.isDead()) {
 					this.kill();
@@ -80,7 +88,8 @@ define(function(require) {
 			ships.add(ship);
 		} else {
 			ship.reset(props.x, props.y);
-			ship.revive();
+			ship.revive(Ship.HEALTH);
+			ship.startFlightPath(props);
 		}
 		
 		return ship;

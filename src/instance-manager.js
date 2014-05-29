@@ -103,6 +103,13 @@ define(function(require, exports) {
 				return instanceManager.get('group');
 			},
 		},
+			
+		shipController: {
+			init: function() {
+				var Ships = require('controllers/ships');
+				return new Ships();
+			}	
+		},
 
 		meteorController: {
 			init: function() {
