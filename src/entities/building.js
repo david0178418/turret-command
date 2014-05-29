@@ -4,10 +4,10 @@ define(function(require) {
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
 		damageComponent = require('components/damage'),
-		injector = require('injector');
+		instanceManager = require('instance-manager');
 	
 	function Building(props) {
-		var game = injector.get('game');
+		var game = instanceManager.get('game');
 		Phaser.Sprite.call(this, game, props.x, props.y, 'city');
 		// XXX TEMP SIZE FOR PLACEHOLDER
 		this.width = 50;
@@ -18,6 +18,7 @@ define(function(require) {
 		this.anchor.setTo(0.5, 1);
 		
 		game.physics.enable(this, Phaser.Physics.ARCADE);
+		game.add.existing(this);
 		this.body.immovable = true;
 	}
 	
@@ -39,6 +40,23 @@ define(function(require) {
 			this.height = this.health * 50;
 		},
 	});
+	
+	Building.create = function(props) {
+		var building,
+			buildings = instanceManager.get('buildings');
+		
+		building = buildings.getFirstDead();
+		
+		if(!building) {
+			building = new Building(props);
+			buildings.add(building);
+		} else {
+			building.reset(props.x, props.y);
+			building.revive();
+		}
+		
+		return building;
+	};
 
 	return Building;
 });

@@ -2,12 +2,12 @@ define(function(require) {
 	"use strict";
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
-		injector = require('injector'),
+		instanceManager = require('instance-manager'),
 		damageComponent = require('components/damage'),
 		RADIANS_COEF = Math.PI / 180;
 	
 	function Meteor(props) {
-		var game = injector.get('game');
+		var game = instanceManager.get('game');
 		
 		Phaser.Sprite.call(this, game, props.x, props.y, 'meteor');
 		// XXX TEMP SIZE FOR PLACEHOLDER
@@ -16,7 +16,7 @@ define(function(require) {
 		// END
 		
 		this.scored = false;
-		this.onKill = props.onKill;
+		this.onKill = props.onKill || function() {};
 		this.revive(Meteor.TOUGHNESS);
 		this.anchor.setTo(0.5, 0.5);
 		game.add.existing(this);
@@ -26,7 +26,7 @@ define(function(require) {
 		this.body.allowRotation = false;
 		this.body.collideWorldBounds = false;
 		
-		this.resourceFragments = injector.get('resourceFragments');
+		this.resourceFragments = instanceManager.get('resourceFragments');
 		this.startFall(props);
 		
 		this.sounds = {
@@ -34,10 +34,12 @@ define(function(require) {
 		};
 	}
 	
-	Meteor.TOUGHNESS = 4;
+	Meteor.TOUGHNESS = 7;
 	
 	Meteor.preload = function(game) {
-		game.load.image('meteor', '');
+		game.load.spritesheet('meteor', '/assets/images/meteor.png', 50, 50);
+		game.load.audio('hit1', '/assets/audio/hit1.ogg');
+		game.load.audio('explode1', '/assets/audio/explode1.ogg');
 	};
 	
 	Meteor.prototype = Object.create(Phaser.Sprite.prototype);

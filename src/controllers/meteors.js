@@ -3,18 +3,16 @@ define(function(require) {
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
 		Meteor = require('entities/meteor'),
-		injector = require('injector');
+		instanceManager = require('instance-manager');
 	
 	function Meteors() {
-		this.game = injector.get('game');
-		this.meteors = this.game.add.group();
-		this.baseInterval = 500;
+		this.game = instanceManager.get('game');
+		this.baseInterval = 1500;
 		this.intervalRange = 2000;
 		this.nextSpawn = 2000;
 		this.level = 0;
 		this.killCount = 0;
 		this.speedInterval = 50;
-		window.meteors = this.meteors; //debug
 	}
 	
 	Meteors.DIRECTION_ARC = 60;	//Arc off straight down in either direction that the meteor can begin motion
@@ -26,7 +24,7 @@ define(function(require) {
 			this.nextSpawn -= this.game.time.elapsed;
 
 			if(this.nextSpawn < 0) {
-				this.spawnMeteor(this.game);
+				this.spawnMeteor();
 
 				this.nextSpawn = this.baseInterval + _.random(this.intervalRange);
 			}
@@ -37,19 +35,18 @@ define(function(require) {
 		},
 
 		spawnMeteor: function() {
-			var meteor = this.meteors.getFirstDead(),
+			var meteors = instanceManager.get('meteors'),
+				meteor = meteors.getFirstDead(),
 				properties = {
 					x: _.random(100, this.game.world.width - 100),
 					y: Meteors.SPAWN_HEIGHT,
 					angle: _.random(-Meteors.DIRECTION_ARC + 90, Meteors.DIRECTION_ARC + 90),
-					speed: Meteors.BASE_SPEED + _.random(0, this.level*this.speedInterval),
-					onKill: _.bind(this.incrementKills, this)
+					speed: Meteors.BASE_SPEED + _.random(0, this.level*this.speedInterval)
 				};
 			
 			if(!meteor) {
-				meteor = new Meteor(properties, this.game);
-
-				this.meteors.add(meteor);
+				meteor = new Meteor(properties);
+				meteors.add(meteor);
 			} else {
 				meteor.startFall(properties);
 			}
@@ -57,9 +54,6 @@ define(function(require) {
 	};
 	
 	Meteors.preload = function(game) {
-		game.load.spritesheet('meteor', '/assets/images/meteor.png', 50, 50);
-		game.load.audio('hit1', '/assets/audio/hit1.ogg');
-		game.load.audio('explode1', '/assets/audio/explode1.ogg');
 		Meteor.preload(game);
 	};
 

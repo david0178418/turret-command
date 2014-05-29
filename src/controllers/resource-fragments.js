@@ -3,10 +3,10 @@ define(function(require) {
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
 		ResourceFragment = require('entities/resource-fragment'),
-		injector = require('injector');
+		instanceManager = require('instance-manager');
 	
 	function ResourceFragments() {
-		this.game = injector.get('game');
+		this.game = instanceManager.get('game');
 		this.resourceFragments = this.game.add.group();
 		this.baseInterval = 500;
 		this.intervalRange = 2000;

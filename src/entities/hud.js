@@ -3,12 +3,12 @@ define(function(require) {
 	//TODO Need better place to organize since not really an entity.  Maybe "interface" folder?
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
-		injector = require('injector');
+		instanceManager = require('instance-manager');
 
 	function Hud() {
-		this.game = injector.get('game');
-		this.hero  = injector.get('hero');
-		this.meteorController = injector.get('meteors');
+		this.game = instanceManager.get('game');
+		this.hero  = instanceManager.get('hero');
+		this.meteorController = instanceManager.get('meteorController');
 		
 		this.currentScore = this.meteorController.killCount;
 		this.currentHealth = this.hero.health;
