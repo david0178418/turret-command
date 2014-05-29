@@ -66,11 +66,6 @@ define(function(require) {
 		},
 		update: function(game) {
 			var meteors = this.meteors;
-			// TODO Unevil-ify this n^2 check
-			this.turrets.forEachAlive(function(turret) {
-				turret.update();
-				turret.affect(this.enemyTargets);
-			}, this);
 			
 			//TODO Unify all this crazy
 			game.physics.arcade.collide(this.hero, meteors, this.collideHeroMeteor, null, this);
@@ -85,9 +80,6 @@ define(function(require) {
 		},
 		collideTurretMeteor: function(turret, meteor) {
 			turret.damage(1);
-			if(turret.isDead()) {
-				turret.kill();
-			}
 			meteor.explode();
 		},
 		collideHeroMeteor: function(hero, meteor) {

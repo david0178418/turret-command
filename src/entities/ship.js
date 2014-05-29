@@ -3,8 +3,10 @@ define(function(require) {
 
 	var _ = require('lodash'),
 		Phaser = require('phaser'),
-		Beam = require('entities/beam'),
 		damageComponent = require('components/damage'),
+		gunComponent = require('components/gun'),
+		laserGunComponent = require('components/laser-gun'),
+		targetClosest = require('components/target-closest'),
 		instanceManager = require('instance-manager');
 	
 	function Ship(props) {
@@ -18,16 +20,19 @@ define(function(require) {
 		
 		this.revive(Ship.HEALTH);
 		this.anchor.setTo(1, 0.5);
-		this.coolDown = 1200;
-		this.ready = false;
-		this.lastFire = 0;
-		this.range = Ship.RANGE;
 		this.flightPath = game.add.tween(this);
 		this.flightPath.to({
 			x: props.direction === Ship.DIRECTIONS.WEST ? props.x - 3000: props.x +3000
 		}, 10000);
 		this.flightPath.start();
 		this.playerTargets = instanceManager.get('playerTargets');
+		this.initGun({
+			cooldown: Ship.cooldown,
+		});
+		this.initTargetClosest({
+			targetAction: this.fireAt,
+			range: Ship.RANGE,
+		});
 		
 		game.physics.enable(this, Phaser.Physics.ARCADE);
 		
@@ -46,50 +51,23 @@ define(function(require) {
 	};
 	
 	Ship.prototype = Object.create(Phaser.Sprite.prototype);
-	_.extend(Ship.prototype, damageComponent, {
-		constructor: Ship,
-		update: function() {
-			this.ready = this.game.time.now - this.lastFire > this.coolDown;
-			
-			if(this.ready) {
-				this.affect(this.playerTargets);
-			}
-		},
-		fireAt: function(target) {
-			var beam = Beam.create();
-			
-			beam.fire(this.x, this.y, target.x, target.y);
-			target.damage(1);
-			this.lastFire = this.game.time.now;
-		},
-		affect: function(targets) {
-			var closestTarget,
-				closestDistance,
-				game = this.game,
-				arcade = game.physics.arcade;
-			
-			if(!this.ready) {
-				return;
-			}
-			
-			targets.forEachAlive(function(target) {
-				var distance = arcade.distanceBetween(this, target);
-				
-				if(distance >= this.range) {
+	_.extend(Ship.prototype,
+		damageComponent, 
+		gunComponent,
+		laserGunComponent,
+		targetClosest, {
+			constructor: Ship,
+			update: function() {
+				if(this.isDead()) {
+					this.kill();
 					return;
 				}
-				
-				if(!closestTarget || distance < closestDistance) {
-					closestTarget = target;
-					closestDistance = distance;
+
+				if(this.gunReady()) {
+					this.aquireTarget(this.playerTargets);
 				}
-			}, this);
-			
-			if(closestTarget) {
-				this.fireAt(closestTarget);
-			}
-		},
-	});
+			},
+		});
 	
 	Ship.create = function(props) {
 		var ship,
