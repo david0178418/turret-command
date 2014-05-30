@@ -9,7 +9,7 @@ define(function(require) {
 		Phaser.Graphics.call(this, game, 0, 0);
 		
 		this.beginFill(0xEE2222);
-    	this.lineStyle(5, 0xffd900, 1);
+		this.lineStyle(5, 0xffd900, 1);
 		game.add.existing(this);
 		this.moveTo(0, 0);
 		this.lineTo(-1, 0);
@@ -24,7 +24,7 @@ define(function(require) {
 
 	Beam.prototype = Object.create(Phaser.Graphics.prototype);
 	_.extend(Beam.prototype, {
-		contructor: Beam,
+		constructor: Beam,
 		target: null,
 		alive: false,
 		kill: function() {

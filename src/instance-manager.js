@@ -24,16 +24,6 @@ define(function(require, exports) {
 				return instanceManager.get('game').add.group();
 			}
 		},
-
-		hero: {
-			init: function() {
-				var CONFIG = require('config'),
-					Hero = require('entities/hero');
-
-				//TODO remove debug global
-				return window.hero = new Hero({x: CONFIG.stage.width/2, y: CONFIG.stage.height});
-			}
-		},
 		
 		
 		//TODO less ghetto way of collecting all targetables
@@ -128,7 +118,7 @@ define(function(require, exports) {
 		
 		hud: {
 			init: function() {
-				var Hud = require('entities/hud');
+				var Hud = require('interface/hud');
 				return new Hud();
 			},
 		},
