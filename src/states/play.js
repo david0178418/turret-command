@@ -12,7 +12,7 @@ define(function(require) {
 		instanceManager = require('instance-manager'),
 		resourceFragments,
 		game = instanceManager.get('game');
-	
+
 	States.Play = 'play';
 	game.state.add(States.Play, {
 		preload: function(game) {
@@ -25,34 +25,23 @@ define(function(require) {
 		create: function(game) {
 			resourceFragments = instanceManager.get('resourceFragments');
 			game.physics.startSystem(Phaser.Physics.ARCADE);
-			game.scale.fullScreenScaleMode = Phaser.ScaleManager.SHOW_ALL;
-			game.scale.setShowAll();
-			game.scale.pageAlignHorizontally = true;
-			game.scale.pageAlignVeritcally = true;
-			game.scale.refresh();
-
-			window.addEventListener('resize', function() {
-				game.scale.setShowAll();
-				game.scale.refresh();
-			});
-
 			game.world.setBounds(0, 0, CONFIG.stage.width, CONFIG.stage.height);
-			
+
 			Building.create({
 				x: 100,
 				y: game.world.height
 			});
-		
+
 			Building.create({
 				x: game.world.width / 2,
 				y: game.world.height
 			});
-		
+
 			Building.create({
 				x: game.world.width - 100,
 				y: game.world.height
 			});
-			
+
 			this.meteorController = instanceManager.get('meteorController');
 			this.shipController = instanceManager.get('shipController');
 			this.meteors = instanceManager.get('meteors');
@@ -62,18 +51,18 @@ define(function(require) {
 			this.hud = instanceManager.get('hud');
 			this.enemyTargets = instanceManager.get('enemyTargets');
 			game.stage.backgroundColor = '#333';
-			
+
 			game.camera.follow(this.hero);
 		},
 		update: function(game) {
 			var meteors = this.meteors;
-			
+
 			//TODO Unify all this crazy
 			game.physics.arcade.collide(this.hero, meteors, this.collideHeroMeteor, null, this);
 			game.physics.arcade.collide(this.turrets, meteors, this.collideTurretMeteor, null, this);
 			game.physics.arcade.collide(meteors, this.buildings, this.collideMeteorBuilding, null, this);
 			game.physics.arcade.collide(this.hero, resourceFragments.resourceFragments, this.collideHeroResource, null, this);
-			
+
 			this.meteorController.update(game);
 			this.shipController.update(game);
 			this.hud.update(game);
@@ -86,7 +75,7 @@ define(function(require) {
 		},
 		collideHeroMeteor: function(hero, meteor) {
 			var meteorTouching;
-			
+
 			hero.damage(1);
 			hero.stun();
 			meteor.explode();

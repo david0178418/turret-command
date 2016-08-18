@@ -3,7 +3,7 @@ define(function(require) {
 	var States = require('states'),
 		instanceManager = require('instance-manager'),
 		game = instanceManager.get('game');
-	
+
 	require('states/play');
 
 	return function() {

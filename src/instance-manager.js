@@ -3,10 +3,10 @@
 //TODO Organize more neatly so dependecies are known by the interface
 define(function(require, exports) {
 	"use strict";
-	
+
 	//TODO remove debug global
 	var instanceManager = window.instanceManager = exports;
-		
+
 	var resources = {
 		game: {
 			init: function() {
@@ -14,10 +14,17 @@ define(function(require, exports) {
 					Phaser = require('phaser');
 
 				//TODO remove debug global
-				return window.game = new Phaser.Game(CONFIG.screen.width, CONFIG.screen.height, Phaser.AUTO, 'phaser');
+				window.game = new Phaser.Game(CONFIG.screen.width, CONFIG.screen.height, Phaser.AUTO, 'phaser');
+
+				setTimeout(function() {
+					window.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+					window.game.scale.pageAlignHorizontally = false;
+					window.game.scale.refresh();
+				}, 0);
+				return window.game;
 			},
 		},
-		
+
 		group: {
 			cache: false,
 			init: function() {
@@ -34,8 +41,8 @@ define(function(require, exports) {
 				return window.hero = new Hero({x: CONFIG.stage.width/2, y: CONFIG.stage.height});
 			}
 		},
-		
-		
+
+
 		//TODO less ghetto way of collecting all targetables
 		// since entities can only exist in one group at a time
 		playerTargets: {
@@ -53,7 +60,7 @@ define(function(require, exports) {
 				};
 			},
 		},
-		
+
 		//TODO less ghetto way of collecting all targetables
 		// since entities can only exist in one group at a time
 		enemyTargets: {
@@ -73,42 +80,42 @@ define(function(require, exports) {
 				};
 			}
 		},
-		
+
 		turrets: {
 			init: function() {
 				return instanceManager.get('group');
 			},
 		},
-		
+
 		buildings: {
 			init: function() {
 				return instanceManager.get('group');
 			},
 		},
-			
+
 		meteors: {
 			init: function() {
 				return instanceManager.get('group');
 			},
 		},
-			
+
 		ships: {
 			init: function() {
 				return instanceManager.get('group');
 			},
 		},
-			
+
 		beams: {
 			init: function() {
 				return instanceManager.get('group');
 			},
 		},
-			
+
 		shipController: {
 			init: function() {
 				var Ships = require('controllers/ships');
 				return new Ships();
-			}	
+			}
 		},
 
 		meteorController: {
@@ -125,32 +132,32 @@ define(function(require, exports) {
 				return new ResourceFragments();
 			},
 		},
-		
+
 		hud: {
 			init: function() {
 				var Hud = require('entities/hud');
 				return new Hud();
 			},
 		},
-		
+
 		meteorTrail: {
 			cache: false,
 			init: function() {
 				var game = instanceManager.get('game');
-				
+
 				return null;
 			}
 		}
 	},
-		
+
 	instances = {};
-		
+
 	exports.get = function(resourceName) {
 		var resourceInstance = instances[resourceName];
-		
+
 		if(!resourceInstance) {
 			resourceInstance = resources[resourceName].init();
-			
+
 			if(resources[resourceName].cache || resources[resourceName].cache === undefined) {
 				instances[resourceName] = resourceInstance;
 			}
@@ -158,7 +165,7 @@ define(function(require, exports) {
 
 		return resourceInstance;
 	};
-	
+
 	exports.reset = function(dependency) {
 		instances[dependency] = resources[dependency]();
 	};
