@@ -2,8 +2,8 @@ requirejs.config({
 	//urlArgs: "bust=" +  (new Date()).getTime(),	//cache-bust if needed
 	baseUrl: 'src',
 	paths: {
-		Phaser: '../libs/phaser-official/build/phaser',
-		lodash: '../libs/lodash/dist/lodash'
+		Phaser: '../libs/phaser-official/build/phaser.min',
+		lodash: '../libs/lodash/dist/lodash.min'
 	},
 	map: {
 		'*': {
