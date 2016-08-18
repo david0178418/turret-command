@@ -5,24 +5,24 @@ define(function(require) {
 		Turret = require('entities/turret'),
 		damageComponent = require('components/damage'),
 		instanceManager = require('instance-manager');
-	
+
 	function Hero(props) {
 		var game = instanceManager.get('game');
 		Phaser.Sprite.call(this, game, props.x, props.y, 'hero');
-		
+
 		// XXX TEMP SIZE FOR PLACEHOLDER
 		this.width = 16;
 		this.height = 16;
 		// END
-		
+
 		this.revive(Hero.HIT_POINTS);
-		
+
 		this.controls = {
 			left: game.input.keyboard.addKey(Phaser.Keyboard.A),
 			right: game.input.keyboard.addKey(Phaser.Keyboard.D),
 			action: game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR)
 		};
-		
+
 		this.score = 0;
 		this.anchor.setTo(0.5, 1);
 		this.poweredUp = false;
@@ -32,23 +32,23 @@ define(function(require) {
 		this.powerCapacity = Hero.STARTING_POWER;
 		this.powerRegenRate = Hero.STARTING_POWER_REGEN_RATE;
 		this.powerDrainRate = Hero.STARTING_POWER_DRAIN_RATE;
-		
+
 		game.physics.enable(this, Phaser.Physics.ARCADE);
 		this.body.allowRotation = false;
 		this.body.collideWorldBounds = true;
 		this.body.allowGravity = false;
 		this.body.drag = new Phaser.Point(Hero.DRAG, Hero.DRAG);
-		
+
 		//easy accessors
 		this.drag = this.body.drag;
 		this.velocity = this.body.velocity;
 		this.acceleration = this.body.acceleration;
-		
+
 		game.add.existing(this);
-		
+
 		window.hero = this;	//debug
 	}
-	
+
 	Hero.HIT_POINTS = 10;
 	Hero.MAX_VELOCITY = 200;
 	Hero.MAX_DASH_VELOCITY = 300;
@@ -64,19 +64,19 @@ define(function(require) {
 		game.load.image('hero', '');
 		Turret.preload(game);
 	};
-	
+
 	Hero.prototype = Object.create(Phaser.Sprite.prototype);
 	_.extend(Hero.prototype, damageComponent, {
 		constructor: Hero,
 		update: function() {
 			var turret;
-			
+
 			if(this.stunned) {
 				this.stunned = this.game.time.now < this.stunnedTime + Hero.STUN_TIME;
 				return;
 			}
 			this.move();
-			
+
 			if(this.controls.action.isDown) {
 				this.readySpawn = true;
 			} else if(this.readySpawn) {
@@ -91,25 +91,25 @@ define(function(require) {
 				maxVelocity =  this.poweredUp ? Hero.MAX_DASH_VELOCITY : Hero.MAX_VELOCITY,
 				vx = 0,
 				vy = 0;
-			
+
 			if (controls.left.isDown) {
 				vx = -moveVelocity;
 			} else if (controls.right.isDown) {
 				vx = moveVelocity;
 			}
-			
+
 			if(vx || vy) {
 				velocity.x = vx;
 				velocity.y = vy;
 			}
 		},
 		spawnTurret: function() {
-			if(this.power <= Turret.COST) {
+			if(this.power < Turret.COST) {
 				return;
 			}
-			
+
 			this.power -= Turret.COST;
-			
+
 			Turret.create(this.x, this.y);
 		},
 		stun: function() {
@@ -125,6 +125,6 @@ define(function(require) {
 			this.power += power;
 		}
 	});
-	
+
 	return Hero;
 });

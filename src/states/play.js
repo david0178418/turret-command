@@ -23,7 +23,6 @@ define(function(require) {
 			Beam.preload(game);
 		},
 		create: function(game) {
-			resourceFragments = instanceManager.get('resourceFragments');
 			game.physics.startSystem(Phaser.Physics.ARCADE);
 			game.world.setBounds(0, 0, CONFIG.stage.width, CONFIG.stage.height);
 
@@ -44,12 +43,13 @@ define(function(require) {
 
 			this.meteorController = instanceManager.get('meteorController');
 			this.shipController = instanceManager.get('shipController');
-			this.meteors = instanceManager.get('meteors');
-			this.hero = instanceManager.get('hero');
-			this.turrets = instanceManager.get('turrets');
 			this.buildings = instanceManager.get('buildings')
-			this.hud = instanceManager.get('hud');
+			this.turrets = instanceManager.get('turrets');
+			this.resourceFragments = instanceManager.get('resourceFragments');
+			this.meteors = instanceManager.get('meteors');
 			this.enemyTargets = instanceManager.get('enemyTargets');
+			this.hero = instanceManager.get('hero');
+			this.hud = instanceManager.get('hud');
 			game.stage.backgroundColor = '#333';
 
 			game.camera.follow(this.hero);
@@ -61,7 +61,7 @@ define(function(require) {
 			game.physics.arcade.collide(this.hero, meteors, this.collideHeroMeteor, null, this);
 			game.physics.arcade.collide(this.turrets, meteors, this.collideTurretMeteor, null, this);
 			game.physics.arcade.collide(meteors, this.buildings, this.collideMeteorBuilding, null, this);
-			game.physics.arcade.collide(this.hero, resourceFragments.resourceFragments, this.collideHeroResource, null, this);
+			game.physics.arcade.collide(this.hero, this.resourceFragments.resourceFragments, this.collideHeroResource, null, this);
 
 			this.meteorController.update(game);
 			this.shipController.update(game);
