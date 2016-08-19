@@ -8,18 +8,14 @@ define(function(require) {
 		laserGunComponent = require('components/laser-gun'),
 		targetClosest = require('components/target-closest'),
 		instanceManager = require('instance-manager');
-	
+
 	function Turret(props) {
 		var game = instanceManager.get('game');
 		Phaser.Sprite.call(this, game, props.x, props.y, 'turret');
-		
-		// XXX TEMP SIZE FOR PLACEHOLDER
-		this.width = 24;
-		this.height = 64;
-		// END
-		
 		this.revive(Turret.HEALTH);
 		this.anchor.setTo(0.5, 1);
+		this.scale.setTo(2);
+		this.smoothed = false;
 		this.inputEnabled = true;
 		this.rangeOutline = game.add.graphics(props.x, props.y);
 		//this.rangeOutline.visible = false;
@@ -36,7 +32,7 @@ define(function(require) {
 			targetAction: this.fireAt,
 			range: Turret.RANGE,
 		});
-		
+
 		game.physics.enable(this, Phaser.Physics.ARCADE);
 		this.body.immovable = true;
 		this.events.onKilled.add(function() {
@@ -48,19 +44,19 @@ define(function(require) {
 		this.events.onInputOver.add(this.highlight, this);
 		this.events.onInputOut.add(this.unhighlight, this);
 	}
-	
+
 	Turret.HEALTH = 2;
 	Turret.COST = 150;
 	Turret.RANGE = 700;
 	Turret.COOLDOWN = 800;
-	
+
 	Turret.preload = function(game) {
-		game.load.image('turret', '');
+		game.load.image('turret', 'assets/images/turret.png');
 	};
-	
+
 	Turret.prototype = Object.create(Phaser.Sprite.prototype);
 	_.extend(Turret.prototype,
-		damageComponent, 
+		damageComponent,
 		gunComponent,
 		laserGunComponent,
 		targetClosest, {
@@ -82,14 +78,14 @@ define(function(require) {
 				this.rangeOutline.visible = false;
 			}
 		});
-	
+
 	//Unify this with all the others that use "create"
 	Turret.create = function(x, y) {
 		var turret,
 			turrets = instanceManager.get('turrets');
-		
+
 		turret = turrets.getFirstDead();
-		
+
 		if(!turret) {
 			turret = new Turret({x: x, y:y});
 			turrets.add(turret);
@@ -97,7 +93,7 @@ define(function(require) {
 			turret.reset(x, y);
 			turret.revive();
 		}
-		
+
 		return turret;
 	};
 

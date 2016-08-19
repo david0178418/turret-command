@@ -42,7 +42,6 @@ define(function(require) {
 		//easy accessors
 		this.drag = this.body.drag;
 		this.velocity = this.body.velocity;
-		this.acceleration = this.body.acceleration;
 
 		game.add.existing(this);
 
@@ -88,19 +87,14 @@ define(function(require) {
 			var velocity = this.velocity,
 				controls = this.controls,
 				moveVelocity = Hero.MOVE_VELOCITY,
-				maxVelocity =  this.poweredUp ? Hero.MAX_DASH_VELOCITY : Hero.MAX_VELOCITY,
-				vx = 0,
-				vy = 0;
+				maxVelocity =  this.poweredUp ? Hero.MAX_DASH_VELOCITY : Hero.MAX_VELOCITY;
 
 			if (controls.left.isDown) {
-				vx = -moveVelocity;
+				velocity.x = -moveVelocity;
 			} else if (controls.right.isDown) {
-				vx = moveVelocity;
-			}
-
-			if(vx || vy) {
-				velocity.x = vx;
-				velocity.y = vy;
+				velocity.x = moveVelocity;
+			} else {
+				velocity.x = 0;
 			}
 		},
 		spawnTurret: function() {
@@ -118,7 +112,6 @@ define(function(require) {
 			this.stop();
 		},
 		stop: function() {
-			this.acceleration.x = this.acceleration.y = 0;
 			this.velocity.x = this.velocity.y = 0;
 		},
 		addPower: function(power) {

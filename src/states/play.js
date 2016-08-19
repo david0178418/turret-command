@@ -7,6 +7,7 @@ define(function(require) {
 		Hero = require('entities/hero'),
 		Building = require('entities/building'),
 		Beam = require('entities/beam'),
+		Turret = require('entities/turret'),
 		Ship = require('entities/ship'),
 		Hud = require('entities/hud'),
 		instanceManager = require('instance-manager'),
@@ -21,6 +22,7 @@ define(function(require) {
 			Meteors.preload(game);
 			Hud.preload(game);
 			Beam.preload(game);
+			Turret.preload(game);
 		},
 		create: function(game) {
 			game.physics.startSystem(Phaser.Physics.ARCADE);
