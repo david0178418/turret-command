@@ -8,11 +8,7 @@ define(function(require) {
 
 	function Building(props) {
 		var game = instanceManager.get('game');
-		Phaser.Sprite.call(this, game, props.x, props.y, 'building3');
-		// XXX TEMP SIZE FOR PLACEHOLDER
-		this.width = 50;
-		this.height = 200;
-		// END
+		Phaser.Sprite.call(this, game, props.x, props.y, 'generator0');
 
 		this.smoothed = false;
 		this.revive(Building.HIT_POINTS);
@@ -24,11 +20,11 @@ define(function(require) {
 		this.priorHealth = this.health;
 	}
 
-	Building.HIT_POINTS = 4;
+	Building.HIT_POINTS = 3;
 	Building.preload = function(game) {
-		game.load.image('building1', 'assets/images/building1.png');
-		game.load.image('building2', 'assets/images/building2.png');
-		game.load.image('building3', 'assets/images/building3.png');
+		game.load.image('generator0', 'assets/images/generator0.png');
+		game.load.image('generator1', 'assets/images/generator1.png');
+		game.load.image('generator2', 'assets/images/generator2.png');
 	};
 
 	Building.prototype = Object.create(Phaser.Sprite.prototype);
@@ -40,7 +36,8 @@ define(function(require) {
 				this.kill();
 				return;
 			} else if(this.health != this.priorHealth) {
-				this.loadTexture('building' + this.health);
+				console.log('generator' + (Building.HIT_POINTS - this.health));
+				this.loadTexture('generator' + (Building.HIT_POINTS - this.health));
 				this.priorHealth = this.health;
 			}
 		},
