@@ -14,7 +14,6 @@ define(function(require) {
 		Phaser.Sprite.call(this, game, props.x, props.y, 'turret');
 		this.revive(Turret.HEALTH);
 		this.anchor.setTo(0.5, 1);
-		this.scale.setTo(2);
 		this.smoothed = false;
 		this.inputEnabled = true;
 		this.rangeOutline = game.add.graphics(props.x, props.y);
