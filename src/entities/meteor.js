@@ -7,7 +7,7 @@ define(function(require) {
 	var damageComponent = require('components/damage');
 
 	var RADIANS_COEF = Math.PI / 180;
-	var MAX_ANGULAR_VELOCITY = 200;
+	var MAX_ANGULAR_VELOCITY = 400;
 
 	function Meteor(props) {
 		var game = instanceManager.get('game');
@@ -25,7 +25,6 @@ define(function(require) {
 		this.body.collideWorldBounds = false;
 		this.resourceFragments = instanceManager.get('resourceFragments');
 		this.startFall(props);
-		this.body.angularVelocity = MAX_ANGULAR_VELOCITY * (Math.random() - (1 / 2));
 		this.sounds = {
 			explode: game.add.sound('explode1'),
 		};
@@ -66,6 +65,7 @@ define(function(require) {
 			this.health = Meteor.TOUGHNESS;
 			this.body.velocity.x = props.speed * Math.cos(props.angle * RADIANS_COEF);
 			this.body.velocity.y = props.speed * Math.sin(props.angle * RADIANS_COEF);
+			this.body.angularVelocity = MAX_ANGULAR_VELOCITY * (Math.random() - (1 / 2));
 		}
 	});
 

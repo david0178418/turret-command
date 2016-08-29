@@ -17,9 +17,9 @@ define(function(require) {
 		this.smoothed = false;
 		this.inputEnabled = true;
 		this.rangeOutline = game.add.graphics(props.x, props.y);
-		//this.rangeOutline.visible = false;
+		this.rangeOutline.visible = false;
 		this.rangeOutline.lineStyle(1, 0xff0000, 0.5);
-		this.rangeOutline.drawCircle(0, 0, Turret.RANGE);
+		this.rangeOutline.drawCircle(0, 0, Turret.RANGE * 2);
 		this.rangeOutline.visible = false;
 		this.enemyTargets = instanceManager.get('enemyTargets');
 		this.initGun({
