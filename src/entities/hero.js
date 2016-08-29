@@ -8,12 +8,7 @@ define(function(require) {
 
 	function Hero(props) {
 		var game = instanceManager.get('game');
-		Phaser.Sprite.call(this, game, props.x, props.y, 'hero');
-
-		// XXX TEMP SIZE FOR PLACEHOLDER
-		this.width = 16;
-		this.height = 16;
-		// END
+		Phaser.Sprite.call(this, game, props.x, props.y, 'round-yellow');
 
 		this.revive(Hero.HIT_POINTS);
 

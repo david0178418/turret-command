@@ -4,16 +4,16 @@ define(function(require) {
 	var _ = require('lodash');
 	var Phaser = require('phaser');
 	var instanceManager = require('instance-manager');
-	var BLOCK_COLORS = require('constants').BLOCK_COLORS;
+	var COLORS = require('constants').COLORS;
 
 	var MAX_ANGULAR_VELOCITY = 200;
 	var RADIANS_COEF = Math.PI / 180;
 
 	function ResourceFragment(props) {
 		var game = instanceManager.get('game');
-		var resourceNumber = (BLOCK_COLORS.length * Math.random()) | 0;
-		Phaser.Sprite.call(this, game, props.x, props.y, 'plate-round-trans-'+(BLOCK_COLORS[resourceNumber]));
+		var resourceNumber = (COLORS.length * Math.random()) | 0;
 
+		Phaser.Sprite.call(this, game, props.x, props.y, 'plate-round-trans-'+(COLORS[resourceNumber  ]));
 		this.anchor.setTo(0.5, 1);
 		this.revive();
 		game.physics.enable(this, Phaser.Physics.ARCADE);
@@ -25,8 +25,8 @@ define(function(require) {
 	}
 
 	ResourceFragment.LIFETIME = 4000;
-	ResourceFragment.preload = function(game) {
-	};
+
+	ResourceFragment.preload = function(game) {};
 
 	ResourceFragment.prototype = Object.create(Phaser.Sprite.prototype);
 	_.extend(ResourceFragment.prototype, {
@@ -53,7 +53,7 @@ define(function(require) {
 			this.body.allowGravity = true;
 			this.body.velocity.x = props.speed * Math.cos(props.angle * RADIANS_COEF);
 			this.body.velocity.y = props.speed * Math.sin(props.angle * RADIANS_COEF);
-			this.body.angularVelocity = Math.random() * ( (MAX_ANGULAR_VELOCITY / 2) -  MAX_ANGULAR_VELOCITY);
+			this.body.angularVelocity = MAX_ANGULAR_VELOCITY * (Math.random() - (1 / 2));
 		}
 	});
 

@@ -36,7 +36,6 @@ define(function(require) {
 				this.kill();
 				return;
 			} else if(this.health != this.priorHealth) {
-				console.log('generator' + (Building.HIT_POINTS - this.health));
 				this.loadTexture('generator' + (Building.HIT_POINTS - this.health));
 				this.priorHealth = this.health;
 			}

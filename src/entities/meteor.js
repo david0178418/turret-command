@@ -2,6 +2,7 @@ define(function(require) {
 	"use strict";
 	var _ = require('lodash');
 	var Phaser = require('phaser');
+	var COLORS = require('constants').COLORS;
 	var instanceManager = require('instance-manager');
 	var damageComponent = require('components/damage');
 
@@ -10,22 +11,21 @@ define(function(require) {
 
 	function Meteor(props) {
 		var game = instanceManager.get('game');
-		var type = Math.random() < .5 ? '1' : '2';
+		var size = ((Math.random() * 4) + 1) | 0;
+		var color = COLORS[((Math.random() * COLORS.length) | 0)];
 
-		Phaser.Sprite.call(this, game, props.x, props.y, 'meteor'+type);
+		Phaser.Sprite.call(this, game, props.x, props.y, 'brick-'+size+'-'+color);
 		this.scored = false;
 		this.smoothed = false;
 		this.onKill = props.onKill || function() {};
 		this.revive(Meteor.TOUGHNESS);
 		this.anchor.setTo(0.5, 0.5);
 		game.add.existing(this);
-
 		game.physics.enable(this, Phaser.Physics.ARCADE);
 		this.body.collideWorldBounds = false;
-
 		this.resourceFragments = instanceManager.get('resourceFragments');
 		this.startFall(props);
-		this.body.angularVelocity = Math.random() * ( (MAX_ANGULAR_VELOCITY / 2) -  MAX_ANGULAR_VELOCITY);
+		this.body.angularVelocity = MAX_ANGULAR_VELOCITY * (Math.random() - (1 / 2));
 		this.sounds = {
 			explode: game.add.sound('explode1'),
 		};
@@ -34,8 +34,6 @@ define(function(require) {
 	Meteor.TOUGHNESS = 7;
 
 	Meteor.preload = function(game) {
-		game.load.image('meteor1', '/assets/images/meteor1.png');
-		game.load.image('meteor2', '/assets/images/meteor2.png');
 		game.load.audio('hit1', '/assets/audio/hit1.ogg');
 		game.load.audio('explode1', '/assets/audio/explode1.ogg');
 	};

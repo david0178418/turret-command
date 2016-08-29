@@ -57,7 +57,7 @@ define(function(require) {
 			this.enemyTargets = instanceManager.get('enemyTargets');
 			this.hero = instanceManager.get('hero');
 			this.hud = instanceManager.get('hud');
-			game.stage.backgroundColor = '#333';
+			game.stage.backgroundColor = '#101010';
 
 			game.camera.follow(this.hero);
 		},

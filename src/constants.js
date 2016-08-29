@@ -1,6 +1,6 @@
 define(function() {
 	return {
-		BLOCK_COLORS: [
+		COLORS: [
 			'black',
 			'blue',
 			'gray',

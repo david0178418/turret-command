@@ -76,7 +76,8 @@ define(function(require) {
 			unhighlight: function() {
 				this.rangeOutline.visible = false;
 			}
-		});
+		}
+	);
 
 	//Unify this with all the others that use "create"
 	Turret.create = function(x, y) {
