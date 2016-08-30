@@ -6,8 +6,8 @@ define(function() {
 			height: 768
 		},
 		stage: {
-			width: 1200,
-			height: 900
+			width: 1024,
+			height: 768
 		}
 	};
 });

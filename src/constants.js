@@ -1,5 +1,6 @@
 define(function() {
-	return {
+	var CONSTANTS = {
+		GROUND_HEIGHT: 7,
 		COLORS: [
 			'black',
 			'blue',
@@ -10,4 +11,8 @@ define(function() {
 			'yellow',
 		]
 	};
+
+	CONSTANTS.GROUND_SURFACE_HEIGHT = 768 - CONSTANTS.GROUND_HEIGHT;
+
+	return CONSTANTS;
 });

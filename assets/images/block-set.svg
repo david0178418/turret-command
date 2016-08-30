@@ -44,9 +44,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="894.47849"
-     inkscape:cy="-1403.0665"
+     inkscape:zoom="2"
+     inkscape:cx="3527.6038"
+     inkscape:cy="-2476.5922"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -68,7 +68,8 @@
      inkscape:snap-others="false"
      inkscape:snap-bbox-midpoints="false"
      inkscape:snap-bbox-edge-midpoints="false"
-     inkscape:object-nodes="true">
+     inkscape:object-nodes="true"
+     showguides="false">
     <inkscape:grid
        type="xygrid"
        id="grid4399"
@@ -84,7 +85,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5051,7 +5052,9 @@
     </g>
     <g
        id="g7666"
-       transform="translate(180,-210.00003)">
+       transform="translate(180,-210.00003)"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
       <g
          inkscape:export-ydpi="40"
          inkscape:export-xdpi="40"
@@ -7986,6 +7989,4333 @@
            x="910.5"
            y="321.86221" />
       </g>
+    </g>
+    <g
+       id="g5966"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/g5966.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         transform="translate(2069.5,1760.5)"
+         id="g5644"
+         style="fill:#008000;fill-opacity:1">
+        <path
+           id="path5646"
+           transform="translate(-2069.5,-1760.5)"
+           d="M 2820 2092.3613 L 2820 2112.3613 L 2870 2112.3613 L 2920 2112.3613 L 2970 2112.3613 L 3020 2112.3613 L 3070 2112.3613 L 3120 2112.3613 L 3170 2112.3613 L 3220 2112.3613 L 3270 2112.3613 L 3320 2112.3613 L 3370 2112.3613 L 3420 2112.3613 L 3470 2112.3613 L 3520 2112.3613 L 3570 2112.3613 L 3620 2112.3613 L 3670 2112.3613 L 3720 2112.3613 L 3770 2112.3613 L 3820 2112.3613 L 3870 2112.3613 L 3920 2112.3613 L 3970 2112.3613 L 4020 2112.3613 L 4070 2112.3613 L 4120 2112.3613 L 4170 2112.3613 L 4220 2112.3613 L 4270 2112.3613 L 4320 2112.3613 L 4370 2112.3613 L 4420 2112.3613 L 4470 2112.3613 L 4520 2112.3613 L 4570 2112.3613 L 4620 2112.3613 L 4670 2112.3613 L 4720 2112.3613 L 4770 2112.3613 L 4820 2112.3613 L 4870 2112.3613 L 4920 2112.3613 L 4970 2112.3613 L 5020 2112.3613 L 5070 2112.3613 L 5120 2112.3613 L 5170 2112.3613 L 5220 2112.3613 L 5270 2112.3613 L 5320 2112.3613 L 5370 2112.3613 L 5420 2112.3613 L 5470 2112.3613 L 5520 2112.3613 L 5570 2112.3613 L 5620 2112.3613 L 5670 2112.3613 L 5720 2112.3613 L 5770 2112.3613 L 5820 2112.3613 L 5870 2112.3613 L 5920 2112.3613 L 5970 2112.3613 L 6020 2112.3613 L 6020 2092.3613 L 5970 2092.3613 L 5920 2092.3613 L 5870 2092.3613 L 5820 2092.3613 L 5770 2092.3613 L 5720 2092.3613 L 5670 2092.3613 L 5620 2092.3613 L 5570 2092.3613 L 5520 2092.3613 L 5470 2092.3613 L 5420 2092.3613 L 5370 2092.3613 L 5320 2092.3613 L 5270 2092.3613 L 5220 2092.3613 L 5170 2092.3613 L 5120 2092.3613 L 5070 2092.3613 L 5020 2092.3613 L 4970 2092.3613 L 4920 2092.3613 L 4870 2092.3613 L 4820 2092.3613 L 4770 2092.3613 L 4720 2092.3613 L 4670 2092.3613 L 4620 2092.3613 L 4570 2092.3613 L 4520 2092.3613 L 4470 2092.3613 L 4420 2092.3613 L 4370 2092.3613 L 4320 2092.3613 L 4270 2092.3613 L 4220 2092.3613 L 4170 2092.3613 L 4120 2092.3613 L 4070 2092.3613 L 4020 2092.3613 L 3970 2092.3613 L 3920 2092.3613 L 3870 2092.3613 L 3820 2092.3613 L 3770 2092.3613 L 3720 2092.3613 L 3670 2092.3613 L 3620 2092.3613 L 3570 2092.3613 L 3520 2092.3613 L 3470 2092.3613 L 3420 2092.3613 L 3370 2092.3613 L 3320 2092.3613 L 3270 2092.3613 L 3220 2092.3613 L 3170 2092.3613 L 3120 2092.3613 L 3070 2092.3613 L 3020 2092.3613 L 2970 2092.3613 L 2920 2092.3613 L 2870 2092.3613 L 2820 2092.3613 z "
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="321.86221"
+           x="760.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5648"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5650"
+           width="29.99999"
+           height="9.9999895"
+           x="810.5"
+           y="321.86221" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5652"
+           width="29.99999"
+           height="9.9999895"
+           x="860.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="910.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5654"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         style="fill:#008000;fill-opacity:1"
+         id="g5656"
+         transform="translate(2269.5,1760.5)">
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5660"
+           width="29.99999"
+           height="9.9999895"
+           x="760.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="810.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5662"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="321.86221"
+           x="860.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5664"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5666"
+           width="29.99999"
+           height="9.9999895"
+           x="910.5"
+           y="321.86221" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         style="fill:#008000;fill-opacity:1"
+         id="g5669"
+         transform="translate(2469.5,1760.5)">
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5674"
+           width="29.99999"
+           height="9.9999895"
+           x="760.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="810.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5676"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="321.86221"
+           x="860.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5678"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5680"
+           width="29.99999"
+           height="9.9999895"
+           x="910.5"
+           y="321.86221" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         transform="translate(2669.5,1760.5)"
+         id="g5682"
+         style="fill:#008000;fill-opacity:1">
+        <rect
+           y="321.86221"
+           x="760.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5684"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5686"
+           width="29.99999"
+           height="9.9999895"
+           x="810.5"
+           y="321.86221" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5688"
+           width="29.99999"
+           height="9.9999895"
+           x="860.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="910.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5690"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         style="fill:#008000;fill-opacity:1"
+         id="g5694"
+         transform="translate(2869.5,1760.5)">
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5698"
+           width="29.99999"
+           height="9.9999895"
+           x="760.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="810.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5700"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="321.86221"
+           x="860.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5702"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5704"
+           width="29.99999"
+           height="9.9999895"
+           x="910.5"
+           y="321.86221" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         transform="translate(3069.5,1760.5)"
+         id="g5706"
+         style="fill:#008000;fill-opacity:1">
+        <rect
+           y="321.86221"
+           x="760.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5708"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5710"
+           width="29.99999"
+           height="9.9999895"
+           x="810.5"
+           y="321.86221" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5712"
+           width="29.99999"
+           height="9.9999895"
+           x="860.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="910.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5714"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         transform="translate(3269.5,1760.5)"
+         id="g5716"
+         style="fill:#008000;fill-opacity:1">
+        <rect
+           y="321.86221"
+           x="760.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5718"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5720"
+           width="29.99999"
+           height="9.9999895"
+           x="810.5"
+           y="321.86221" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5722"
+           width="29.99999"
+           height="9.9999895"
+           x="860.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="910.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5724"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         style="fill:#008000;fill-opacity:1"
+         id="g5726"
+         transform="translate(3469.5,1760.5)">
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5728"
+           width="29.99999"
+           height="9.9999895"
+           x="760.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="810.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5730"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="321.86221"
+           x="860.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5732"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5734"
+           width="29.99999"
+           height="9.9999895"
+           x="910.5"
+           y="321.86221" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         style="fill:#008000;fill-opacity:1"
+         id="g5737"
+         transform="translate(3669.5,1760.5)">
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5742"
+           width="29.99999"
+           height="9.9999895"
+           x="760.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="810.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5744"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="321.86221"
+           x="860.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5746"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5748"
+           width="29.99999"
+           height="9.9999895"
+           x="910.5"
+           y="321.86221" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         transform="translate(3869.5,1760.5)"
+         id="g5750"
+         style="fill:#008000;fill-opacity:1">
+        <rect
+           y="321.86221"
+           x="760.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5752"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5754"
+           width="29.99999"
+           height="9.9999895"
+           x="810.5"
+           y="321.86221" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5756"
+           width="29.99999"
+           height="9.9999895"
+           x="860.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="910.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5758"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         transform="translate(4069.5,1760.5)"
+         id="g5760"
+         style="fill:#008000;fill-opacity:1">
+        <rect
+           y="321.86221"
+           x="760.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5762"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5764"
+           width="29.99999"
+           height="9.9999895"
+           x="810.5"
+           y="321.86221" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5766"
+           width="29.99999"
+           height="9.9999895"
+           x="860.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="910.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5768"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         style="fill:#008000;fill-opacity:1"
+         id="g5770"
+         transform="translate(4269.5,1760.5)">
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5772"
+           width="29.99999"
+           height="9.9999895"
+           x="760.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="810.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5774"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="321.86221"
+           x="860.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5776"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5778"
+           width="29.99999"
+           height="9.9999895"
+           x="910.5"
+           y="321.86221" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         transform="translate(4469.5,1760.5)"
+         id="g5780"
+         style="fill:#008000;fill-opacity:1">
+        <rect
+           y="321.86221"
+           x="760.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5782"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5784"
+           width="29.99999"
+           height="9.9999895"
+           x="810.5"
+           y="321.86221" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5786"
+           width="29.99999"
+           height="9.9999895"
+           x="860.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="910.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5788"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         style="fill:#008000;fill-opacity:1"
+         id="g5790"
+         transform="translate(4669.5,1760.5)">
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5792"
+           width="29.99999"
+           height="9.9999895"
+           x="760.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="810.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5794"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="321.86221"
+           x="860.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5796"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5798"
+           width="29.99999"
+           height="9.9999895"
+           x="910.5"
+           y="321.86221" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         style="fill:#008000;fill-opacity:1"
+         id="g5800"
+         transform="translate(4869.5,1760.5)">
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5802"
+           width="29.99999"
+           height="9.9999895"
+           x="760.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="810.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5804"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="321.86221"
+           x="860.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5806"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5808"
+           width="29.99999"
+           height="9.9999895"
+           x="910.5"
+           y="321.86221" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         transform="translate(5069.5,1760.5)"
+         id="g5810"
+         style="fill:#008000;fill-opacity:1">
+        <rect
+           y="321.86221"
+           x="760.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5812"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5814"
+           width="29.99999"
+           height="9.9999895"
+           x="810.5"
+           y="321.86221" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5816"
+           width="29.99999"
+           height="9.9999895"
+           x="860.5"
+           y="321.86221" />
+        <rect
+           y="321.86221"
+           x="910.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5818"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g6049">
+      <g
+         id="g5365"
+         transform="translate(2309.5,2080.5002)"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-red-4.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5367"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5369"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5372"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5374"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5376"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(2509.5,2080.5002)"
+         id="g5378"
+         style="fill:#008000;fill-opacity:1"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-green-4.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5380"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5382"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5384"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5386"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5388"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         style="fill:#0044aa;fill-opacity:1"
+         id="g5390"
+         transform="translate(2709.5,2080.5002)"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-4.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5392"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5394"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5396"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5398"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5400"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(2909.5,2080.5)"
+         id="g5402"
+         style="fill:#ffcc00;fill-opacity:1"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-yellow.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5404"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5406"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5408"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5410"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5412"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         transform="translate(3109.5,2080.5)"
+         id="g5414"
+         style="fill:#ac9d93;fill-opacity:1"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-gray.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5416"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5418"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5420"
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5422"
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5424"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         style="fill:#1a1a1a;fill-opacity:1"
+         id="g5426"
+         transform="translate(3309.5,2080.5002)"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-black.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5428"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5430"
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5432"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5435"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5437"
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(3509.5,2080.5002)"
+         id="g5439"
+         style="fill:#f9f9f9;fill-opacity:1"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-white.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5441"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5443"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5445"
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5447"
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5449"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-4.png"
+         transform="matrix(-1,0,0,1,5110.5,2080.5004)"
+         id="g5451"
+         style="fill:#0044aa;fill-opacity:1">
+        <path
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5453"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5455"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5457"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5459"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5461"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-yellow.png"
+         style="fill:#ffcc00;fill-opacity:1"
+         id="g5463"
+         transform="matrix(-1,0,0,1,4910.5,2080.5002)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5465"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5468"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5470"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5472"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5474"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-red-4.png"
+         transform="translate(4109.5,2080.5002)"
+         id="g5476">
+        <path
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5478"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5480"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5482"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5484"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5486"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-gray.png"
+         style="fill:#ac9d93;fill-opacity:1"
+         id="g5488"
+         transform="translate(4309.5,2080.5002)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5490"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5492"
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5494"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5496"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5498"
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-green-4.png"
+         style="fill:#008000;fill-opacity:1"
+         id="g5500"
+         transform="translate(4509.5,2080.5002)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5502"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5504"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5506"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5508"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5510"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-black.png"
+         transform="translate(4709.5,2080.5002)"
+         id="g5512"
+         style="fill:#1a1a1a;fill-opacity:1">
+        <path
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5514"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5516"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5518"
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5520"
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5522"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-gray.png"
+         style="fill:#ac9d93;fill-opacity:1"
+         id="g5524"
+         transform="matrix(-1,0,0,1,6710.5,2080.5)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5526"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5528"
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5530"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5532"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5534"
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-black.png"
+         transform="matrix(-1,0,0,1,6510.5,2080.5002)"
+         id="g5536"
+         style="fill:#1a1a1a;fill-opacity:1">
+        <path
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5538"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5540"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5542"
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5544"
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5546"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-white.png"
+         style="fill:#f9f9f9;fill-opacity:1"
+         id="g5548"
+         transform="matrix(-1,0,0,1,6310.5,2080.5002)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5550"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5552"
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5554"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5556"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5558"
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(4909.5,2080.5002)"
+         id="g5560"
+         style="fill:#ffcc00;fill-opacity:1"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-yellow.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5562"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5564"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5566"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5568"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5570"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         transform="translate(5709.5,2080.5002)"
+         id="g5572"
+         style="fill:#008000;fill-opacity:1"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-green-4.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5574"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5576"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5578"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5580"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5582"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         style="fill:#0044aa;fill-opacity:1"
+         id="g5584"
+         transform="translate(6109.5,2080.5004)"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-4.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5586"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5588"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5590"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5592"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5594"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         id="g5596"
+         transform="matrix(-1,0,0,1,7110.5,2080.5002)"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-red-4.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5598"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5600"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5602"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5604"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5606"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-red-4.png"
+         transform="translate(2309.5,2080.5002)"
+         id="g5608">
+        <path
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5610"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5612"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5614"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5616"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5618"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-green-4.png"
+         style="fill:#008000;fill-opacity:1"
+         id="g5620"
+         transform="translate(2509.5,2080.5002)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5622"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5624"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5626"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5628"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5630"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         id="g5632"
+         transform="translate(6309.5,2080.5)"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-red-4.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5634"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5636"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5638"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5640"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5642"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-yellow.png"
+         style="fill:#ffcc00;fill-opacity:1"
+         id="g5821"
+         transform="translate(6509.5,2080.5002)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5823"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5825"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5827"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5830"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5832"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-4.png"
+         transform="translate(2109.5,2080.5002)"
+         id="g5834"
+         style="fill:#0044aa;fill-opacity:1">
+        <path
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5836"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5838"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5840"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5842"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5844"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-red-4.png"
+         transform="matrix(-1,0,0,1,9110.5,2080.5002)"
+         id="g5846">
+        <path
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5848"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5850"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5852"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5854"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5856"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-green-4.png"
+         style="fill:#008000;fill-opacity:1"
+         id="g5858"
+         transform="matrix(-1,0,0,1,8910.5,2080.5002)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5860"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5862"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5864"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5866"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5868"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-4.png"
+         transform="matrix(-1,0,0,1,8710.5,2080.5002)"
+         id="g5870"
+         style="fill:#0044aa;fill-opacity:1">
+        <path
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5872"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5874"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5876"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5878"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5880"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-yellow.png"
+         style="fill:#ffcc00;fill-opacity:1"
+         id="g5882"
+         transform="matrix(-1,0,0,1,8510.5,2080.5)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5884"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5886"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5888"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5890"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5892"
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-gray.png"
+         style="fill:#ac9d93;fill-opacity:1"
+         id="g5894"
+         transform="matrix(-1,0,0,1,8310.5,2080.5)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5896"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5898"
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5900"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5902"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5904"
+           style="fill:#ac9d93;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-black.png"
+         transform="matrix(-1,0,0,1,8110.5,2080.5002)"
+         id="g5906"
+         style="fill:#1a1a1a;fill-opacity:1">
+        <path
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5908"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5910"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5912"
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5914"
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5916"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-4-white.png"
+         style="fill:#f9f9f9;fill-opacity:1"
+         id="g5918"
+         transform="matrix(-1,0,0,1,7910.5,2080.5002)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5920"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5922"
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5924"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5926"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5928"
+           style="fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         id="g5930"
+         transform="matrix(-1,0,0,1,9110.5,2080.5002)"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-red-4.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5932"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5934"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5936"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5938"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5940"
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="matrix(-1,0,0,1,8910.5,2080.5002)"
+         id="g5942"
+         style="fill:#008000;fill-opacity:1"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/brick-green-4.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           id="path5944"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5946"
+           width="29.99999"
+           height="9.9999895"
+           x="510.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="560.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5948"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="610.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5950"
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5952"
+           width="29.99999"
+           height="9.9999895"
+           x="660.5"
+           y="281.86203" />
+      </g>
+      <g
+         style="fill:#0044aa;fill-opacity:1"
+         id="g5954"
+         transform="matrix(-1,0,0,1,9310.5,2080.5002)"
+         inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-4.png"
+         inkscape:export-xdpi="30"
+         inkscape:export-ydpi="30">
+        <path
+           inkscape:connector-curvature="0"
+           id="path5956"
+           d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="281.86203"
+           x="510.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5958"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5960"
+           width="29.99999"
+           height="9.9999895"
+           x="560.5"
+           y="281.86203" />
+        <rect
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5962"
+           width="29.99999"
+           height="9.9999895"
+           x="610.5"
+           y="281.86203" />
+        <rect
+           y="281.86203"
+           x="660.5"
+           height="9.9999895"
+           width="29.99999"
+           id="rect5964"
+           style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       transform="translate(509,0)"
+       id="g5941"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5943"
+         d="m 750.5,331.8622 0,20 50,0 50,0 50,0 50,0 0,-20 -50,0 -50,0 -50,0 -50,0 z"
+         style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="321.86221"
+         x="760.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect5945"
+         style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5953"
+         width="29.99999"
+         height="9.9999895"
+         x="810.5"
+         y="321.86221" />
+      <rect
+         style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5955"
+         width="29.99999"
+         height="9.9999895"
+         x="860.5"
+         y="321.86221" />
+      <rect
+         y="321.86221"
+         x="910.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect5961"
+         style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6326"
+       transform="translate(2489.5,2280.5)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-3.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <path
+         id="path6328"
+         d="m 500.5,391.8622 0,60 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 z"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <rect
+         y="381.86203"
+         x="510.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6330"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6332"
+         width="29.99999"
+         height="9.9999895"
+         x="510.5"
+         y="381.86203" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6334"
+         width="29.99999"
+         height="9.9999895"
+         x="560.5"
+         y="381.86203" />
+      <rect
+         y="381.86203"
+         x="560.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6336"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6338"
+         width="29.99999"
+         height="9.9999895"
+         x="610.5"
+         y="381.86221" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6720"
+       transform="translate(3119.5,2860.5002)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-4.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6722"
+         d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="281.86203"
+         x="510.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6724"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6726"
+         width="29.99999"
+         height="9.9999895"
+         x="560.5"
+         y="281.86203" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6728"
+         width="29.99999"
+         height="9.9999895"
+         x="610.5"
+         y="281.86203" />
+      <rect
+         y="281.86203"
+         x="660.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6730"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6742"
+       transform="translate(3104.7457,2497.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6744"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6746"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6748"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6750"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6370"
+       transform="translate(3119.5,2640.5002)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-3.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <path
+         id="path6372"
+         d="m 500.5,391.8622 0,60 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 z"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <rect
+         y="381.86203"
+         x="510.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6374"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6376"
+         width="29.99999"
+         height="9.9999895"
+         x="510.5"
+         y="381.86203" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6378"
+         width="29.99999"
+         height="9.9999895"
+         x="560.5"
+         y="381.86203" />
+      <rect
+         y="381.86203"
+         x="560.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6380"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6382"
+         width="29.99999"
+         height="9.9999895"
+         x="610.5"
+         y="381.86221" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2234.7457,2497.7081)"
+       id="g6306"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6308"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6310"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6312"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6314"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6296"
+       transform="translate(2234.7457,2437.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6298"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6300"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6302"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6304"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2234.7457,2377.7081)"
+       id="g6286"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6288"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6290"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6292"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6294"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2384.7457,2497.7081)"
+       id="g6350"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6352"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6354"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6356"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6358"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/plate-blue-1.png"
+       transform="translate(2315.7457,2400.5)"
+       id="g6412"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6414"
+         width="50.004311"
+         height="20.004311"
+         x="534.04004"
+         y="691.86505" />
+      <rect
+         y="681.86224"
+         x="544.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6416"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-2.png"
+       transform="translate(2299.5,2660.5002)"
+       id="g6432"
+       style="fill:#0044aa;fill-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         d="m 500.5,491.8622 0,60 50,0 50,0 0,-60 -50,0 -50,0 z"
+         id="path6434" />
+      <rect
+         y="481.86203"
+         x="510.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6436"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6438"
+         width="29.99999"
+         height="9.9999895"
+         x="560.5"
+         y="481.86203" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6448"
+       transform="translate(2299.5,2420.5002)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-2.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <path
+         id="path6450"
+         d="m 500.5,491.8622 0,60 50,0 50,0 0,-60 -50,0 -50,0 z"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6452"
+         width="29.99999"
+         height="9.9999895"
+         x="510.5"
+         y="481.86203" />
+      <rect
+         y="481.86203"
+         x="560.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6454"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6456"
+       transform="translate(2384.7457,2377.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6458"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6460"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6462"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6464"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2554.7457,2557.7081)"
+       id="g6562"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6564"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6566"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6568"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6570"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6474"
+       transform="translate(2554.7457,2497.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6476"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6478"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6480"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6482"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2554.7457,2437.7081)"
+       id="g6484"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6486"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6488"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6490"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6492"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6494"
+       transform="translate(2554.7457,2377.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6496"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6498"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6500"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6502"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6572"
+       transform="translate(2704.7457,2557.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6574"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6576"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6578"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6580"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6504"
+       transform="translate(2704.7457,2497.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6506"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6508"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6510"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6512"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6552"
+       transform="translate(2704.7457,2437.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6554"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6556"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6558"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6560"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-2.png"
+       transform="translate(2619.5,2420.5002)"
+       id="g6520"
+       style="fill:#0044aa;fill-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         d="m 500.5,491.8622 0,60 50,0 50,0 0,-60 -50,0 -50,0 z"
+         id="path6522" />
+      <rect
+         y="481.86203"
+         x="510.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6524"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6526"
+         width="29.99999"
+         height="9.9999895"
+         x="560.5"
+         y="481.86203" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2704.7457,2377.7081)"
+       id="g6528"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6530"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6532"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6534"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6536"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(1984.5181,2540.5)"
+       id="g6544"
+       style="fill:#0044aa;fill-opacity:1">
+      <path
+         id="path6546"
+         d="m 1135.4819,531.8622 0,19.99999 50,0 50,0 0,-19.99999 -50,0 -50,0 z"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6548"
+         width="29.99999"
+         height="9.9999895"
+         x="1145.4819"
+         y="521.86224" />
+      <rect
+         y="521.86224"
+         x="1195.4819"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6550"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2814.7457,2557.7081)"
+       id="g6640"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6642"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6644"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6646"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6648"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6630"
+       transform="translate(2814.7457,2497.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6632"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6634"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6636"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6638"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2814.7457,2437.7081)"
+       id="g6610"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6612"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6614"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6616"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6618"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6592"
+       transform="translate(2829.5,2480.5)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-2.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <path
+         id="path6594"
+         d="m 500.5,491.8622 0,60 50,0 50,0 0,-60 -50,0 -50,0 z"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6596"
+         width="29.99999"
+         height="9.9999895"
+         x="510.5"
+         y="481.86203" />
+      <rect
+         y="481.86203"
+         x="560.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6598"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6600"
+       transform="translate(2814.7457,2317.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6602"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6604"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6606"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6608"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6620"
+       transform="translate(2914.7457,2437.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6622"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6624"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6626"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6628"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6650"
+       transform="matrix(-1,0,0,1,4095.2543,2557.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6652"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6654"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6656"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6658"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="matrix(-1,0,0,1,4095.2543,2497.7081)"
+       id="g6660"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6662"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6664"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6666"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6668"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6670"
+       transform="matrix(-1,0,0,1,4095.2543,2437.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6672"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6674"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6676"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6678"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-2.png"
+       transform="matrix(-1,0,0,1,4080.5,2480.5)"
+       id="g6680"
+       style="fill:#0044aa;fill-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         d="m 500.5,491.8622 0,60 50,0 50,0 0,-60 -50,0 -50,0 z"
+         id="path6682" />
+      <rect
+         y="481.86203"
+         x="510.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6684"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6686"
+         width="29.99999"
+         height="9.9999895"
+         x="560.5"
+         y="481.86203" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="matrix(-1,0,0,1,4095.2543,2317.7081)"
+       id="g6688"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6690"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6692"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6694"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6696"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(3104.7457,2377.7081)"
+       id="g6732"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6734"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6736"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6738"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6740"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-4.png"
+       transform="translate(3119.5,2620.5002)"
+       id="g6708"
+       style="fill:#0044aa;fill-opacity:1">
+      <path
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+         id="path6710"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6712"
+         width="29.99999"
+         height="9.9999895"
+         x="510.5"
+         y="281.86203" />
+      <rect
+         y="281.86203"
+         x="560.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6714"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="281.86203"
+         x="610.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6716"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6718"
+         width="29.99999"
+         height="9.9999895"
+         x="660.5"
+         y="281.86203" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6752"
+       transform="translate(2234.7457,2867.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6754"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6756"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6758"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6760"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2234.7457,2807.7081)"
+       id="g6762"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6764"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6766"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6768"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6770"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6772"
+       transform="translate(2234.7457,2747.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6774"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6776"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6778"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6780"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-2.png"
+       transform="translate(2299.5,2790.5002)"
+       id="g6782"
+       style="fill:#0044aa;fill-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         d="m 500.5,491.8622 0,60 50,0 50,0 0,-60 -50,0 -50,0 z"
+         id="path6784" />
+      <rect
+         y="481.86203"
+         x="510.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6786"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6788"
+         width="29.99999"
+         height="9.9999895"
+         x="560.5"
+         y="481.86203" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2384.7457,2867.7081)"
+       id="g6790"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6792"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6794"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6796"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6798"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6800"
+       transform="translate(2384.7457,2807.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6802"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6804"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6806"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6808"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2384.7457,2747.7081)"
+       id="g6810"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6812"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6814"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6816"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6818"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6820"
+       transform="translate(2299.5,3030.5002)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-2.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <path
+         id="path6822"
+         d="m 500.5,491.8622 0,60 50,0 50,0 0,-60 -50,0 -50,0 z"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6824"
+         width="29.99999"
+         height="9.9999895"
+         x="510.5"
+         y="481.86203" />
+      <rect
+         y="481.86203"
+         x="560.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6826"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6828"
+       transform="translate(2554.7457,2867.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6830"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6832"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6834"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6836"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2554.7457,2807.7081)"
+       id="g6838"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6840"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6842"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6844"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6846"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6848"
+       transform="translate(2554.7457,2747.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6850"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6852"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6854"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6856"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2554.7457,2687.7081)"
+       id="g6858"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6860"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6862"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6864"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6866"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2704.7457,2867.7081)"
+       id="g6868"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6870"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6872"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6874"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6876"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2704.7457,2807.7081)"
+       id="g6878"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6880"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6882"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6884"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6886"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2704.7457,2747.7081)"
+       id="g6888"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6890"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6892"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6894"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6896"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6898"
+       transform="translate(2619.5,3030.5002)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-2.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <path
+         id="path6900"
+         d="m 500.5,491.8622 0,60 50,0 50,0 0,-60 -50,0 -50,0 z"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6902"
+         width="29.99999"
+         height="9.9999895"
+         x="510.5"
+         y="481.86203" />
+      <rect
+         y="481.86203"
+         x="560.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6904"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6906"
+       transform="translate(2704.7457,2687.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6908"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6910"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6912"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6914"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-4.png"
+       transform="translate(2829.5,3230.5002)"
+       id="g6924"
+       style="fill:#0044aa;fill-opacity:1">
+      <path
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+         id="path6926"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6928"
+         width="29.99999"
+         height="9.9999895"
+         x="510.5"
+         y="281.86203" />
+      <rect
+         y="281.86203"
+         x="560.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6930"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="281.86203"
+         x="610.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6932"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6934"
+         width="29.99999"
+         height="9.9999895"
+         x="660.5"
+         y="281.86203" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(2814.7457,2867.7081)"
+       id="g6936"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6938"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6940"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6942"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6944"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-3.png"
+       transform="translate(2829.5,3010.5002)"
+       id="g6946"
+       style="fill:#0044aa;fill-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         d="m 500.5,391.8622 0,60 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 z"
+         id="path6948" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6950"
+         width="29.99999"
+         height="9.9999895"
+         x="510.5"
+         y="381.86203" />
+      <rect
+         y="381.86203"
+         x="510.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6952"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="381.86203"
+         x="560.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6954"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6956"
+         width="29.99999"
+         height="9.9999895"
+         x="560.5"
+         y="381.86203" />
+      <rect
+         y="381.86221"
+         x="610.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6958"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6960"
+       transform="translate(2814.7457,2747.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6962"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6964"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect6966"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6968"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6970"
+       transform="translate(2829.5,2990.5002)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-4.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6972"
+         d="m 500.5,291.8622 0,60 50,0 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 -50,0 z"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="281.86203"
+         x="510.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6974"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6976"
+         width="29.99999"
+         height="9.9999895"
+         x="560.5"
+         y="281.86203" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6978"
+         width="29.99999"
+         height="9.9999895"
+         x="610.5"
+         y="281.86203" />
+      <rect
+         y="281.86203"
+         x="660.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6980"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(3074.7457,2927.7081)"
+       id="g7078"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect7080"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7082"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7084"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect7086"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g6994"
+       transform="translate(3074.7457,2867.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6996"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect6998"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect7000"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7002"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(3174.7457,2867.7081)"
+       id="g7088"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect7090"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7092"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7094"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect7096"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g7004"
+       transform="translate(3089.5,3010.5002)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-3.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <path
+         id="path7006"
+         d="m 500.5,391.8622 0,60 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 z"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <rect
+         y="381.86203"
+         x="510.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect7008"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7010"
+         width="29.99999"
+         height="9.9999895"
+         x="510.5"
+         y="381.86203" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7012"
+         width="29.99999"
+         height="9.9999895"
+         x="560.5"
+         y="381.86203" />
+      <rect
+         y="381.86203"
+         x="560.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect7014"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7016"
+         width="29.99999"
+         height="9.9999895"
+         x="610.5"
+         y="381.86221" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       transform="translate(3074.7457,2747.7081)"
+       id="g7018"
+       style="fill:#0044aa;fill-opacity:1">
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect7020"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7022"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7024"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect7026"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="30"
+       inkscape:export-xdpi="30"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-3.png"
+       transform="translate(3089.5,2890.5002)"
+       id="g7040"
+       style="fill:#0044aa;fill-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         d="m 500.5,391.8622 0,60 50,0 50,0 50,0 0,-60 -50,0 -50,0 -50,0 z"
+         id="path7042" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7044"
+         width="29.99999"
+         height="9.9999895"
+         x="510.5"
+         y="381.86203" />
+      <rect
+         y="381.86203"
+         x="510.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect7046"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="381.86203"
+         x="560.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect7048"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7050"
+         width="29.99999"
+         height="9.9999895"
+         x="560.5"
+         y="381.86203" />
+      <rect
+         y="381.86221"
+         x="610.5"
+         height="9.9999895"
+         width="29.99999"
+         id="rect7052"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="fill:#0044aa;fill-opacity:1"
+       id="g7054"
+       transform="translate(3214.7457,2747.7081)"
+       inkscape:export-filename="/home/davidg/Projects/Games/Turret-Command/assets/images/blocks/block-blue-1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7056"
+         width="49.999989"
+         height="59.999989"
+         x="515.25427"
+         y="594.65411" />
+      <rect
+         y="584.65411"
+         x="525.25427"
+         height="9.9999895"
+         width="29.99999"
+         id="rect7058"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="594.65411"
+         x="515.25427"
+         height="59.999989"
+         width="49.999989"
+         id="rect7060"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:0.26666668;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7062"
+         width="29.99999"
+         height="9.9999895"
+         x="525.25427"
+         y="584.65411" />
     </g>
   </g>
 </svg>

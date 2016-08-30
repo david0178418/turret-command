@@ -19,7 +19,7 @@ define(function(require) {
 		};
 
 		this.score = 0;
-		this.anchor.setTo(0.5, 1);
+		this.anchor.setTo(0, 1);
 		this.poweredUp = false;
 		this.stunned = false;
 		this.readySpawn = false;
@@ -55,7 +55,6 @@ define(function(require) {
 	Hero.STARTING_POWER_DRAIN_RATE = 400;
 
 	Hero.preload = function(game) {
-		game.load.image('hero', '');
 		Turret.preload(game);
 	};
 

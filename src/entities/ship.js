@@ -59,11 +59,11 @@ define(function(require) {
 				flightPath.start();
 
 				if(props.direction === Ship.DIRECTIONS.WEST) {
-					this.scale.setTo(-1, 1);
-					// this.anchor.x = 0;
-				} else {
 					this.scale.setTo(1, 1);
-					// this.anchor.x = this.width;
+					this.anchor.x = 0;
+				} else {
+					this.scale.setTo(-1, 1);
+					this.anchor.x = this.width;
 				}
 			},
 			update: function() {
@@ -83,7 +83,7 @@ define(function(require) {
 			ships = instanceManager.get('ships');
 
 		ship = ships.getFirstDead();
-
+		// TODO Figure out why follow-up games break ships
 		if(!ship) {
 			ship = new Ship(props);
 			ships.add(ship);

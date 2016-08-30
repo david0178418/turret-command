@@ -1,10 +1,10 @@
 define(function(require) {
 	"use strict";
 
-	var _ = require('lodash'),
-		Phaser = require('phaser'),
-		damageComponent = require('components/damage'),
-		instanceManager = require('instance-manager');
+	var _ = require('lodash');
+	var Phaser = require('phaser');
+	var damageComponent = require('components/damage');
+	var instanceManager = require('instance-manager');
 
 	function Building(props) {
 		var game = instanceManager.get('game');
@@ -34,6 +34,7 @@ define(function(require) {
 		update: function() {
 			if(!this.health) {
 				this.kill();
+				this.destroy();
 				return;
 			} else if(this.health != this.priorHealth) {
 				this.loadTexture('generator' + (Building.HIT_POINTS - this.health));
@@ -43,18 +44,11 @@ define(function(require) {
 	});
 
 	Building.create = function(props) {
-		var building,
-			buildings = instanceManager.get('buildings');
+		var building;
+		var buildings = instanceManager.get('buildings');
 
-		building = buildings.getFirstDead();
-
-		if(!building) {
-			building = new Building(props);
-			buildings.add(building);
-		} else {
-			building.reset(props.x, props.y);
-			building.revive();
-		}
+		building = new Building(props);
+		buildings.add(building);
 
 		return building;
 	};

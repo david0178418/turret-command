@@ -1,3 +1,4 @@
+
 //Really, "Service Locatore"...but whatever...  Using the
 //anti-pattern just to get this thing up.
 //TODO Organize more neatly so dependecies are known by the interface
@@ -34,11 +35,12 @@ define(function(require, exports) {
 
 		hero: {
 			init: function() {
-				var CONFIG = require('config'),
-					Hero = require('entities/hero');
+				var CONFIG = require('config');
+				var CONSTANTS = require('constants');
+				var Hero = require('entities/hero');
 
 				//TODO remove debug global
-				return window.hero = new Hero({x: CONFIG.stage.width/2, y: CONFIG.stage.height});
+				return window.hero = new Hero({x: CONFIG.stage.width/2, y: CONSTANTS.GROUND_SURFACE_HEIGHT});
 			}
 		},
 
@@ -167,6 +169,8 @@ define(function(require, exports) {
 	};
 
 	exports.reset = function(dependency) {
-		instances[dependency] = resources[dependency]();
+		if(resources[dependency]) {
+			instances[dependency] = resources[dependency].init();
+		}
 	};
 });

@@ -1,19 +1,20 @@
 define(function(require) {
 	"use strict";
-	var CONFIG = require('config'),
-		Phaser = require('phaser'),
-		States = require('states'),
-		Meteors = require('controllers/meteors'),
-		Hero = require('entities/hero'),
-		Building = require('entities/building'),
-		Beam = require('entities/beam'),
-		ResourceFragment = require('entities/resource-fragment'),
-		Turret = require('entities/turret'),
-		Ship = require('entities/ship'),
-		Hud = require('entities/hud'),
-		instanceManager = require('instance-manager'),
-		resourceFragments,
-		game = instanceManager.get('game');
+	var CONFIG = require('config');
+	var CONSTANTS = require('constants');
+	var Phaser = require('phaser');
+	var States = require('states');
+	var Meteors = require('controllers/meteors');
+	var Hero = require('entities/hero');
+	var Building = require('entities/building');
+	var Beam = require('entities/beam');
+	var ResourceFragment = require('entities/resource-fragment');
+	var Turret = require('entities/turret');
+	var Ship = require('entities/ship');
+	var Hud = require('entities/hud');
+	var instanceManager = require('instance-manager');
+	var resourceFragments;
+	var game = instanceManager.get('game');
 
 	States.Play = 'play';
 	game.state.add(States.Play, {
@@ -32,22 +33,36 @@ define(function(require) {
 		create: function(game) {
 			game.physics.startSystem(Phaser.Physics.ARCADE);
 			game.world.setBounds(0, 0, CONFIG.stage.width, CONFIG.stage.height);
+			this.renderBackground();
+
+			instanceManager.reset('meteorController');
+			instanceManager.reset('shipController');
+			instanceManager.reset('buildings')
+			instanceManager.reset('turrets');
+			instanceManager.reset('resourceFragments');
+			instanceManager.reset('meteors');
+			instanceManager.reset('enemyTargets');
+			instanceManager.reset('hero');
+			instanceManager.reset('hud');
+			instanceManager.reset('ships');
+			instanceManager.reset('beams');
 
 			Building.create({
 				x: 100,
-				y: game.world.height
+				y: CONSTANTS.GROUND_SURFACE_HEIGHT
 			});
 
 			Building.create({
 				x: game.world.width / 2,
-				y: game.world.height
+				y: CONSTANTS.GROUND_SURFACE_HEIGHT
 			});
 
 			Building.create({
 				x: game.world.width - 100,
-				y: game.world.height
+				y: CONSTANTS.GROUND_SURFACE_HEIGHT
 			});
 
+			this.gameOver = false;
 			this.meteorController = instanceManager.get('meteorController');
 			this.shipController = instanceManager.get('shipController');
 			this.buildings = instanceManager.get('buildings')
@@ -62,17 +77,19 @@ define(function(require) {
 			game.camera.follow(this.hero);
 		},
 		update: function(game) {
-			var meteors = this.meteors;
+			if(!this.buildings.length && !this.gameOver) {
+				this.endGame();
+			} else {
+				//TODO Unify all this crazy
+				game.physics.arcade.overlap(this.hero, this.meteors, this.collideHeroMeteor, null, this);
+				game.physics.arcade.overlap(this.turrets, this.meteors, this.collideTurretMeteor, null, this);
+				game.physics.arcade.overlap(this.meteors, this.buildings, this.collideMeteorBuilding, null, this);
+				game.physics.arcade.overlap(this.hero, this.resourceFragments.resourceFragments, this.collideHeroResource, null, this);
 
-			//TODO Unify all this crazy
-			game.physics.arcade.collide(this.hero, meteors, this.collideHeroMeteor, null, this);
-			game.physics.arcade.collide(this.turrets, meteors, this.collideTurretMeteor, null, this);
-			game.physics.arcade.collide(meteors, this.buildings, this.collideMeteorBuilding, null, this);
-			game.physics.arcade.collide(this.hero, this.resourceFragments.resourceFragments, this.collideHeroResource, null, this);
-
-			this.meteorController.update(game);
-			this.shipController.update(game);
-			this.hud.update(game);
+				this.meteorController.update(game);
+				this.shipController.update(game);
+				this.hud.update(game);
+			}
 		},
 		paused: function() {
 		},
@@ -94,6 +111,45 @@ define(function(require) {
 		collideHeroResource: function(hero, resource) {
 			hero.addPower(resource.value);
 			resource.kill();
+		},
+		renderBackground: function() {
+			game.add.sprite(0, CONFIG.stage.height - 11, 'ground');
+		},
+		endGame: function() {
+			this.gameOver = true;
+
+			this.startRenderEnd();
+		},
+		startRenderEnd: function() {
+			var gameOverSign = new Phaser.Sprite(game, CONFIG.stage.width/2, CONFIG.stage.height* 1/4, 'game-over');
+			var replayButton = new Phaser.Button(game, CONFIG.stage.width/2, CONFIG.stage.height * 3/4, 'replay', function() {
+				game.state.start('play');
+			});
+			var widthRange = 2360 - CONFIG.stage.width;
+			var y = CONFIG.stage.height - 31;
+
+			gameOverSign.anchor.set(0.5, 0.5);
+			replayButton.anchor.set(0.5, 0.5);
+			replayButton.onInputOver.add(function() {
+				replayButton.scale.set(1.2, 1.2);
+			});
+			replayButton.onInputOut.add(function() {
+				replayButton.scale.set(1, 1);
+			});
+
+			function renderLine() {
+				game.add.sprite(-(Math.random() * widthRange), y, 'game-over-bricks');
+
+				if(y > 0) {
+					y -= 20;
+					setTimeout(renderLine, 50);
+				} else {
+					game.add.existing(gameOverSign);
+					game.add.existing(replayButton);
+				}
+			}
+
+			renderLine();
 		}
 	});
 
@@ -177,5 +233,10 @@ define(function(require) {
 		game.load.image('round-trans-red', 'assets/images/blocks/round-trans-red.png');
 		game.load.image('round-trans-white', 'assets/images/blocks/round-trans-white.png');
 		game.load.image('round-trans-yellow', 'assets/images/blocks/round-trans-yellow.png');
+
+		game.load.image('ground', 'assets/images/ground.png');
+		game.load.image('game-over', 'assets/images/game-over.png');
+		game.load.image('game-over-bricks', 'assets/images/game-over-bricks.png');
+		game.load.image('replay', 'assets/images/replay.png');
 	}
 });
